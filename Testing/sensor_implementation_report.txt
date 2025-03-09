@@ -1,0 +1,5 @@
+Sensor Implementation Report for /Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc
+==================================================
+
+Score: 100.0% (13/13 checks passed)
+No critical issues found!

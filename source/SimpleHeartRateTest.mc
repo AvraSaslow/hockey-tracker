@@ -42,7 +42,6 @@ class HeartRateAndAccelView extends WatchUi.View {
 
     // Called when the view becomes visible
     function onShow() {
-        // Request sensor data using the appropriate API
         try {
             var options = {
                 :period => 1,  // 1-second updates
@@ -73,39 +72,48 @@ class HeartRateAndAccelView extends WatchUi.View {
     // Callback for sensor data
     function onSensorData(sensorData as Sensor.SensorData) as Void {
         try {
-            if (sensorData has :heartRate && sensorData.heartRate != null) {
-                hrValue = sensorData.heartRate.toString();
-            } else {
-                hrValue = "--";
-            }
-            
-            if (sensorData has :accelerometer && sensorData.accelerometer != null) {
-                var accelData = sensorData.accelerometer;
-                if (accelData has :x && accelData has :y && accelData has :z) {
-                    var x = accelData.x;
-                    var y = accelData.y;
-                    var z = accelData.z;
-                    
-                    // Safely format or default to "--"
-                    if (x instanceof Float) {
-                        accelX = x.format("%.2f");
-                    } else {
-                        accelX = "--";
+            // Add null check for sensorData itself
+            if (sensorData != null) {
+                if (sensorData has :heartRate && sensorData.heartRate != null) {
+                    hrValue = sensorData.heartRate.toString();
+                } else {
+                    hrValue = "--";
+                }
+                
+                if (sensorData has :accelerometer && sensorData.accelerometer != null) {
+                    var accelData = sensorData.accelerometer;
+                    if (accelData has :x && accelData has :y && accelData has :z) {
+                        var x = accelData.x;
+                        var y = accelData.y;
+                        var z = accelData.z;
+                        
+                        // Safely format or default to "--"
+                        if (x instanceof Float) {
+                            accelX = x.format("%.2f");
+                        } else {
+                            accelX = "--";
+                        }
+                        
+                        if (y instanceof Float) {
+                            accelY = y.format("%.2f");
+                        } else {
+                            accelY = "--";
+                        }
+                        
+                        if (z instanceof Float) {
+                            accelZ = z.format("%.2f");
+                        } else {
+                            accelZ = "--";
+                        }
                     }
-                    
-                    if (y instanceof Float) {
-                        accelY = y.format("%.2f");
-                    } else {
-                        accelY = "--";
-                    }
-                    
-                    if (z instanceof Float) {
-                        accelZ = z.format("%.2f");
-                    } else {
-                        accelZ = "--";
-                    }
+                } else {
+                    accelX = "--";
+                    accelY = "--";
+                    accelZ = "--";
                 }
             } else {
+                // Handle case where sensorData is null
+                hrValue = "--";
                 accelX = "--";
                 accelY = "--";
                 accelZ = "--";

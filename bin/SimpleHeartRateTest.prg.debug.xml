@@ -3,7 +3,7 @@
     <manifest filename="/Users/Avra.Saslow/Documents/hockey-garmin/manifest.xml"/>
     <pcToLineNum>
         <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/HelloWorld.mc" id="1" lineNum="30" parent="globals/HelloWorldView" pc="268435460" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435479" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435479" symbol="&lt;init&gt;"/>
         <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="3" lineNum="28" parent="globals/HeartRateAndAccelView" pc="268435503" symbol="&lt;init&gt;"/>
         <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminView.mc" id="4" lineNum="4" parent="globals/hockey_garminView" pc="268435522" symbol="&lt;init&gt;"/>
         <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="5" lineNum="10" parent="globals/SimpleHeartRateTest" pc="268435541" symbol="&lt;init&gt;"/>
@@ -99,16 +99,16 @@
         <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminDelegate.mc" id="34" lineNum="12" parent="globals/hockey_garminDelegate" pc="268437250" symbol="onMenu"/>
         <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminDelegate.mc" id="35" lineNum="6" parent="globals/hockey_garminDelegate" pc="268437253" symbol="initialize"/>
         <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminDelegate.mc" id="35" lineNum="7" parent="globals/hockey_garminDelegate" pc="268437255" symbol="initialize"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="36" lineNum="14" parent="globals/Rez/Layouts" pc="268437274" symbol="MainLayout"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="36" lineNum="15" parent="globals/Rez/Layouts" pc="268437286" symbol="MainLayout"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="36" lineNum="17" parent="globals/Rez/Layouts" pc="268437417" symbol="MainLayout"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="36" lineNum="18" parent="globals/Rez/Layouts" pc="268437522" symbol="MainLayout"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="36" lineNum="20" parent="globals/Rez/Layouts" pc="268437562" symbol="MainLayout"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="37" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268437589" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="38" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268437608" symbol="initialize"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="38" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268437610" symbol="initialize"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="38" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268437628" symbol="initialize"/>
-        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="38" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268437684" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="36" lineNum="14" parent="globals/Rez/Layouts" pc="268437274" symbol="MainLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="36" lineNum="15" parent="globals/Rez/Layouts" pc="268437286" symbol="MainLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="36" lineNum="17" parent="globals/Rez/Layouts" pc="268437417" symbol="MainLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="36" lineNum="18" parent="globals/Rez/Layouts" pc="268437522" symbol="MainLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="36" lineNum="20" parent="globals/Rez/Layouts" pc="268437562" symbol="MainLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="37" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268437589" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="38" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268437608" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="38" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268437610" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="38" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268437628" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3289-00/source/Rez.mcgen" id="38" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268437684" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -200,7 +200,7 @@
         <entry endPc="268437588" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268437286"/>
         <entry endPc="268437588" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437286"/>
     </localVars>
-    <deviceInfo deviceVersion="722eeea457636580f75a28ae6c94dcea8ad83696" partNumber="006-B3113-00"/>
+    <deviceInfo deviceVersion="722eeea457636580f75a28ae6c94dcea8ad83696" partNumber="006-B3289-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>

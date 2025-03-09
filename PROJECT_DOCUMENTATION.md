@@ -85,8 +85,25 @@ hockey-garmin/
 ### Phase 5: Polish and Optimization
 - Refine UI
 - Optimize performance and battery usage
-- Create testing suite
+- Implement direct sensor testing without simulator dependency
 - Complete documentation
+
+## Testing Approach
+
+The project uses a direct testing approach for sensors that doesn't require the Garmin Connect IQ Simulator:
+
+1. The `Testing/` directory contains tools for direct sensor testing
+2. `test_simple_heartrate.py` generates realistic test data and injects it directly into the app
+3. `run_sensor_test.sh` provides a simple interface for running tests
+4. Testing can be integrated into CI/CD pipelines for automated validation
+
+To run sensor tests:
+```bash
+cd Testing
+./run_sensor_test.sh
+```
+
+See `Testing/README.md` for detailed information on the testing tools.
 
 ## Development Log
 

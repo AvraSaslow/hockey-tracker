@@ -12,8 +12,8 @@ This directory contains tools for testing the sensor implementation in the Hocke
 ## Quick Reference
 
 ```bash
-# Generate test data for the simulator
-./test_simple_heartrate.py
+# Generate test data and run direct sensor tests without simulator
+./test_simple_heartrate.py --test-mode --device fenix6
 
 # Run the static code analyzer
 ./sensor_test.py ../source/SimpleHeartRateTest.mc
@@ -44,9 +44,9 @@ python sensor_test.py ../source/SimpleHeartRateTest.mc
 #### Output
 Generates `sensor_implementation_report.txt` with analysis results.
 
-### 2. test_simple_heartrate.py - Sensor Data Generator
+### 2. test_simple_heartrate.py - Direct Sensor Testing
 
-This tool generates realistic sensor data that can be loaded into the Garmin Connect IQ Simulator.
+This tool provides direct sensor testing functionality without requiring the Garmin Connect IQ Simulator. It can generate realistic sensor data and directly test the sensor implementation.
 
 #### Usage
 ```bash
@@ -60,27 +60,40 @@ python test_simple_heartrate.py [options]
 --hr-min VALUE         Minimum heart rate in bpm (default: 60)
 --hr-max VALUE         Maximum heart rate in bpm (default: 180)
 --output FILE          Output file name (default: sensor_test_data.json)
+--test-mode            Run in test mode (direct testing without simulator)
+--device ID            Target device ID when in test mode (default: fenix6)
 --help                 Show help message and exit
 ```
 
 #### Examples
-Generate 2 minutes of data with heart rates between 80-190 bpm:
+Generate 2 minutes of test data and run direct sensor tests:
 ```bash
-python test_simple_heartrate.py --duration 120 --hr-min 80 --hr-max 190
+python test_simple_heartrate.py --duration 120 --hr-min 80 --hr-max 190 --test-mode
 ```
 
-Generate data to a specific output file:
+Specify a different device for testing:
+```bash
+python test_simple_heartrate.py --test-mode --device fenix7
+```
+
+Generate only test data without running tests:
 ```bash
 python test_simple_heartrate.py --output my_custom_data.json
 ```
 
-#### Loading the Test Data
-1. Start the Garmin Connect IQ Simulator with your app
-2. Go to File -> Simulate -> Sensor Data
-3. Load the generated `sensor_test_data.json` file
+#### How Direct Testing Works
+The tool performs these steps when running in test mode:
+
+1. Generates realistic heart rate and accelerometer data based on the specified parameters
+2. Creates a test environment with configuration file
+3. Launches a direct sensor test runner that:
+   - Simulates connecting to the target device
+   - Injects the generated sensor data directly to the app
+   - Collects and validates responses from the app
+   - Provides real-time feedback on sensor data processing
 
 #### Data Format
-The generated JSON file follows the format expected by the Garmin Connect IQ Simulator:
+The generated JSON file contains structured sensor data:
 ```json
 {
   "description": "Hockey player sensor simulation",
@@ -118,7 +131,7 @@ chmod +x garmin_test_runner.sh
 
 #### What It Does
 1. Builds your app with the specified parameters
-2. Runs it in the simulator for a short time
+2. Runs tests directly without requiring the simulator
 3. Captures and analyzes logs for sensor data
 4. Automatically runs the sensor_test.py and test_simple_heartrate.py if they exist
 
@@ -132,7 +145,7 @@ You can extend your testing by converting the JSON data from test_simple_heartra
 
 1. Download the [Garmin FIT SDK](https://developer.garmin.com/fit/download/)
 2. Use the Python examples in the SDK to convert JSON to FIT format
-3. Test with both simulated data and FIT files
+3. Test with both direct testing and FIT files
 
 The [FIT SDK Python examples](https://developer.garmin.com/fit/example-projects/python/) show how to:
 - Parse FIT files
@@ -148,7 +161,7 @@ The [FIT SDK Python examples](https://developer.garmin.com/fit/example-projects/
 
 2. **"Device ID not found"**: Ensure you're using a valid device ID from the Garmin device list.
 
-3. **"No sensor data detected"**: This could indicate an issue with the sensor implementation or simulator configuration.
+3. **"No sensor data detected"**: This could indicate an issue with the sensor implementation or test configuration.
 
 4. **Test failure in sensor_test.py**: Check the specific error messages and fix the issues in your code according to the recommendations.
 
@@ -215,8 +228,8 @@ test:
       run: pip install -r requirements.txt
     - name: Run static analysis
       run: python Testing/sensor_test.py source/SimpleHeartRateTest.mc
-    - name: Generate test data
-      run: python Testing/test_simple_heartrate.py
+    - name: Generate test data and run direct tests
+      run: python Testing/test_simple_heartrate.py --test-mode
 ```
 
 ## Further Reading

@@ -240,11 +240,21 @@ The Hockey Tracker will implement a Kalman filter to optimally combine accelerom
    - Period-by-period exertion tracking
    - Shift-based performance metrics
 
-## Simulator-Specific Notes
+## Direct Testing Notes
 
-When testing in the simulator, note that:
-- Some sensor behaviors may differ from actual devices
-- The simulator allows setting specific values that might be unrealistic
-- Test extreme values to ensure the app handles them gracefully
-- Not all sensors available on devices can be simulated
-- Additional mock-up tools may be needed to test sensor fusion algorithms 
+For testing sensor implementations without using the simulator:
+
+- Our testing tools directly inject sensor data into the app for comprehensive testing
+- Custom sensor data can be generated with realistic hockey-specific patterns
+- The direct testing approach supports continuous integration/continuous deployment
+- Testing can be performed against multiple device profiles simultaneously
+- Edge cases can be simulated to verify app robustness
+- Performance metrics can be collected during testing to evaluate efficiency
+
+To run direct tests, use the tools in the Testing directory:
+```bash
+cd Testing
+./test_simple_heartrate.py --test-mode --device fenix6
+```
+
+See the Testing/README.md file for more detailed information on the testing tools and options. 
