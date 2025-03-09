@@ -1,0 +1,508 @@
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
+import Toybox.Application;
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Sensor,3,14,20]; ]
+import Toybox.Sensor;
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Graphics,4,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Timer,5,14,19]; ]
+import Toybox.Timer;
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Activity,6,14,22]; ]
+import Toybox.Activity;
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [Lang,7,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [System,8,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 10; @symbol_classdef = [SimpleHeartRateTest,10,6,25]; @symbol_extends<0> = [Application,10,34,45]; @symbol_extends<1> = [AppBase,10,46,53]; ]
+class SimpleHeartRateTest extends Application.AppBase {
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 10; ]
+    <init> {
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 10; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; ]
+    function initialize() as Void {
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_11_26_13_4_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 12 8 ]
+        symbol [ AppBase %tmp.2 12 8 15 ];
+        %tmp.2 = getv ? :AppBase;
+        symbol [ initialize %tmp.3 12 16 26 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_11_26_13_4_stop:
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 15; @symbol_functiondef = [onStart,15,13,20]; @symbol_param<0> = [state,15,21,26]; ]
+    function onStart(state) {
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 19; @symbol_functiondef = [onStop,19,13,19]; @symbol_param<0> = [state,19,20,25]; ]
+    function onStop(state) {
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 23; @symbol_functiondef = [getInitialView,23,13,27]; ]
+    function getInitialView() {
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_23_30_25_4_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 24 8 ]
+        %tmp.1 = newa 1;
+        symbol [ HeartRateAndAccelView %tmp.5 24 20 41 ];
+        %tmp.5 = getv ? :HeartRateAndAccelView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_23_30_25_4_stop:
+    }
+}
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 28; @symbol_classdef = [HeartRateAndAccelView,28,6,27]; @symbol_extends<0> = [WatchUi,28,36,43]; @symbol_extends<1> = [View,28,44,48]; ]
+class HeartRateAndAccelView extends WatchUi.View {
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 28; ]
+    <init> {
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 28; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 29; @position = 16; @symbol_vardef = [hrValue,29,16,23]; ]
+    private
+    var hrValue = "--";
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 30; @position = 16; @symbol_vardef = [accelX,30,16,22]; ]
+    private
+    var accelX = "--";
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 31; @position = 16; @symbol_vardef = [accelY,31,16,22]; ]
+    private
+    var accelY = "--";
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 32; @position = 16; @symbol_vardef = [accelZ,32,16,22]; ]
+    private
+    var accelZ = "--";
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 34; @symbol_functiondef = [initialize,34,13,23]; ]
+    function initialize() as Void {
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_34_26_36_4_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 35 8 ]
+        symbol [ View %tmp.2 35 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 35 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_34_26_36_4_stop:
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 39; @symbol_functiondef = [onLayout,39,13,21]; @symbol_param<0> = [dc,39,22,24]; ]
+    function onLayout(dc) {
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 44; @symbol_functiondef = [onShow,44,13,19]; ]
+    function onShow() {
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_44_22_57_4_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 46 8 ]
+        [ "_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_44_22_57_4_start" "_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_44_22_57_4_stop" ]
+        %options.1 = local;
+        symbol [ options %options.1 46 12 19 ];
+        %tmp.1 = newd 3;
+        %tmp.3 = const :period;
+        symbol [ period %tmp.3 47 13 19 const ];
+        %tmp.4 = 1;
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        %tmp.8 = const :heartRate;
+        symbol [ heartRate %tmp.8 48 13 22 const ];
+        %tmp.9 = newd 1;
+        %tmp.11 = const :enabled;
+        symbol [ enabled %tmp.11 49 17 24 const ];
+        %tmp.12 = true;
+        %tmp.13 = dup %tmp.9;
+        %tmp.14 = aputv %tmp.13 %tmp.11 %tmp.12;
+        %tmp.15 = dup %tmp.6;
+        %tmp.16 = aputv %tmp.15 %tmp.8 %tmp.14;
+        %tmp.18 = const :accelerometer;
+        symbol [ accelerometer %tmp.18 51 13 26 const ];
+        %tmp.19 = newd 1;
+        %tmp.21 = const :enabled;
+        symbol [ enabled %tmp.21 52 17 24 const ];
+        %tmp.22 = true;
+        %tmp.23 = dup %tmp.19;
+        %tmp.24 = aputv %tmp.23 %tmp.21 %tmp.22;
+        %tmp.25 = dup %tmp.16;
+        %tmp.26 = aputv %tmp.25 %tmp.18 %tmp.24;
+        lputv %options.1 %tmp.26;
+        symbol [ options %options.1 46 12 19 ];
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 56 8 ]
+        symbol [ Sensor %tmp.27 56 8 14 ];
+        %tmp.27 = getm $.Toybox.Sensor;
+        symbol [ registerSensorDataListener %tmp.28 56 15 41 ];
+        %tmp.28 = getv function %tmp.27 :registerSensorDataListener;
+        %tmp.29 = self;
+        symbol [ method %tmp.30 56 42 48 ];
+        %tmp.30 = getv function %tmp.29 :method;
+        %tmp.32 = const :onSensorData;
+        symbol [ onSensorData %tmp.32 56 50 62 const ];
+        %tmp.33 = invoke %tmp.29 %tmp.30(%tmp.32);
+        %tmp.34 = lgetv %options.1;
+        symbol [ options %tmp.34 56 65 72 ];
+        invoke %tmp.27 %tmp.28(%tmp.33, %tmp.34);
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_44_22_57_4_stop:
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 60; @symbol_functiondef = [onHide,60,13,19]; ]
+    function onHide() {
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_60_22_63_4_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 62 8 ]
+        symbol [ Sensor %tmp.1 62 8 14 ];
+        %tmp.1 = getm $.Toybox.Sensor;
+        symbol [ unregisterSensorDataListener %tmp.2 62 15 43 ];
+        %tmp.2 = getv function %tmp.1 :unregisterSensorDataListener;
+        invoke %tmp.1 %tmp.2();
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_60_22_63_4_stop:
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 66; @symbol_functiondef = [onSensorData,66,13,25]; @symbol_param<0> = [sensorData,66,26,36]; @symbol_param<0>_type<0> = [Sensor,66,40,46]; @symbol_param<0>_type<1> = [SensorData,66,47,57]; ]
+    function onSensorData(sensorData as Sensor.SensorData) as Void {
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_66_67_89_4_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 67 8 ]
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_8_71_8_if_stmt:
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_12_67_65_begin:
+        %tmp.1 = lgetv %sensorData;
+        symbol [ sensorData %tmp.1 67 12 22 ];
+        %tmp.3 = const :heartRate;
+        symbol [ heartRate %tmp.3 67 28 37 const ];
+        %tmp.4 = canhazplz %tmp.1 %tmp.3;
+        bf %tmp.4 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_8_71_8_if_else_false;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_41_67_65_true:
+        %tmp.5 = lgetv %sensorData;
+        symbol [ sensorData %tmp.5 67 41 51 ];
+        %tmp.6 = as %tmp.5 { (interface { var heartRate; }) };
+        symbol [ heartRate %tmp.7 67 52 61 ];
+        %tmp.7 = getv %tmp.6 :heartRate;
+        %tmp.8 = null;
+        %tmp.9 = ne %tmp.7 %tmp.8;
+        push %tmp.9;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_41_67_65_end:
+        %tmp.10 = phi [%tmp.4 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_12_67_65_begin] [%tmp.9 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_41_67_65_true] [%tmp.10 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_41_67_65_end];
+        bf %tmp.10 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_8_71_8_if_else_false;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_8_71_8_if_true:
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_71_69_8_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 68 12 ]
+        %tmp.11 = lgetv %sensorData;
+        symbol [ sensorData %tmp.11 68 22 32 ];
+        %tmp.12 = as %tmp.11 { (interface { var heartRate; }) };
+        symbol [ heartRate %tmp.13 68 33 42 ];
+        %tmp.13 = getv %tmp.12 :heartRate;
+        symbol [ toString %tmp.14 68 43 51 ];
+        %tmp.14 = getv function %tmp.13 :toString;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        symbol [ hrValue ? 68 12 19 ];
+        putv self :hrValue %tmp.15;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_71_69_8_stop:
+        goto @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_8_71_8_if_end;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_8_71_8_if_else_false:
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_69_15_71_8_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 70 12 ]
+        %tmp.16 = "--";
+        symbol [ hrValue ? 70 12 19 ];
+        putv self :hrValue %tmp.16;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_69_15_71_8_stop:
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_67_8_71_8_if_end:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 73 8 ]
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_8_86_8_if_stmt:
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_12_73_73_begin:
+        %tmp.17 = lgetv %sensorData;
+        symbol [ sensorData %tmp.17 73 12 22 ];
+        %tmp.19 = const :accelerometer;
+        symbol [ accelerometer %tmp.19 73 28 41 const ];
+        %tmp.20 = canhazplz %tmp.17 %tmp.19;
+        bf %tmp.20 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_8_86_8_if_else_false;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_45_73_73_true:
+        %tmp.21 = lgetv %sensorData;
+        symbol [ sensorData %tmp.21 73 45 55 ];
+        %tmp.22 = as %tmp.21 { (interface { var accelerometer; }) };
+        symbol [ accelerometer %tmp.23 73 56 69 ];
+        %tmp.23 = getv %tmp.22 :accelerometer;
+        %tmp.24 = null;
+        %tmp.25 = ne %tmp.23 %tmp.24;
+        push %tmp.25;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_45_73_73_end:
+        %tmp.26 = phi [%tmp.20 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_12_73_73_begin] [%tmp.25 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_45_73_73_true] [%tmp.26 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_45_73_73_end];
+        bf %tmp.26 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_8_86_8_if_else_false;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_8_86_8_if_true:
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_79_82_8_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 75 12 ]
+        [ "_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_79_82_8_start" "_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_79_82_8_stop" ]
+        %x.1 = local;
+        symbol [ x %x.1 75 16 17 ];
+        %tmp.27 = lgetv %sensorData;
+        symbol [ sensorData %tmp.27 75 20 30 ];
+        %tmp.28 = as %tmp.27 { (interface { var accelerometer; }) };
+        symbol [ accelerometer %tmp.29 75 31 44 ];
+        %tmp.29 = getv %tmp.28 :accelerometer;
+        symbol [ x %tmp.30 75 45 46 ];
+        %tmp.30 = getv %tmp.29 :x;
+        lputv %x.1 %tmp.30;
+        symbol [ x %x.1 75 16 17 ];
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 76 12 ]
+        [ "_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_79_82_8_start" "_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_79_82_8_stop" ]
+        %y.2 = local;
+        symbol [ y %y.2 76 16 17 ];
+        %tmp.31 = lgetv %sensorData;
+        symbol [ sensorData %tmp.31 76 20 30 ];
+        %tmp.32 = as %tmp.31 { (interface { var accelerometer; }) };
+        symbol [ accelerometer %tmp.33 76 31 44 ];
+        %tmp.33 = getv %tmp.32 :accelerometer;
+        symbol [ y %tmp.34 76 45 46 ];
+        %tmp.34 = getv %tmp.33 :y;
+        lputv %y.2 %tmp.34;
+        symbol [ y %y.2 76 16 17 ];
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 77 12 ]
+        [ "_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_79_82_8_start" "_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_79_82_8_stop" ]
+        %z.3 = local;
+        symbol [ z %z.3 77 16 17 ];
+        %tmp.35 = lgetv %sensorData;
+        symbol [ sensorData %tmp.35 77 20 30 ];
+        %tmp.36 = as %tmp.35 { (interface { var accelerometer; }) };
+        symbol [ accelerometer %tmp.37 77 31 44 ];
+        %tmp.37 = getv %tmp.36 :accelerometer;
+        symbol [ z %tmp.38 77 45 46 ];
+        %tmp.38 = getv %tmp.37 :z;
+        lputv %z.3 %tmp.38;
+        symbol [ z %z.3 77 16 17 ];
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 79 12 ]
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_79_21_79_54_begin:
+        %tmp.39 = lgetv %x.1;
+        symbol [ x %tmp.39 79 22 23 ];
+        %tmp.40 = null;
+        %tmp.41 = ne %tmp.39 %tmp.40;
+        bf %tmp.41 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_79_21_79_54_false;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_79_21_79_54_true:
+        %tmp.42 = lgetv %x.1;
+        symbol [ x %tmp.42 79 35 36 ];
+        %tmp.43 = as %tmp.42 { (!Null) };
+        symbol [ format %tmp.44 79 37 43 ];
+        %tmp.44 = getv function %tmp.43 :format;
+        %tmp.45 = "%.2f";
+        %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
+        push %tmp.46;
+        goto @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_79_21_79_54_end;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_79_21_79_54_false:
+        %tmp.47 = "--";
+        push %tmp.47;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_79_21_79_54_end:
+        %tmp.48 = phi [%tmp.41 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_79_21_79_54_begin] [%tmp.46 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_79_21_79_54_true] [%tmp.47 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_79_21_79_54_false] [%tmp.48 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_79_21_79_54_end];
+        symbol [ accelX ? 79 12 18 ];
+        putv self :accelX %tmp.48;
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 80 12 ]
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_80_21_80_54_begin:
+        %tmp.49 = lgetv %y.2;
+        symbol [ y %tmp.49 80 22 23 ];
+        %tmp.50 = null;
+        %tmp.51 = ne %tmp.49 %tmp.50;
+        bf %tmp.51 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_80_21_80_54_false;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_80_21_80_54_true:
+        %tmp.52 = lgetv %y.2;
+        symbol [ y %tmp.52 80 35 36 ];
+        %tmp.53 = as %tmp.52 { (!Null) };
+        symbol [ format %tmp.54 80 37 43 ];
+        %tmp.54 = getv function %tmp.53 :format;
+        %tmp.55 = "%.2f";
+        %tmp.56 = invoke %tmp.53 %tmp.54(%tmp.55);
+        push %tmp.56;
+        goto @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_80_21_80_54_end;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_80_21_80_54_false:
+        %tmp.57 = "--";
+        push %tmp.57;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_80_21_80_54_end:
+        %tmp.58 = phi [%tmp.51 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_80_21_80_54_begin] [%tmp.56 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_80_21_80_54_true] [%tmp.57 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_80_21_80_54_false] [%tmp.58 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_80_21_80_54_end];
+        symbol [ accelY ? 80 12 18 ];
+        putv self :accelY %tmp.58;
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 81 12 ]
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_81_21_81_54_begin:
+        %tmp.59 = lgetv %z.3;
+        symbol [ z %tmp.59 81 22 23 ];
+        %tmp.60 = null;
+        %tmp.61 = ne %tmp.59 %tmp.60;
+        bf %tmp.61 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_81_21_81_54_false;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_81_21_81_54_true:
+        %tmp.62 = lgetv %z.3;
+        symbol [ z %tmp.62 81 35 36 ];
+        %tmp.63 = as %tmp.62 { (!Null) };
+        symbol [ format %tmp.64 81 37 43 ];
+        %tmp.64 = getv function %tmp.63 :format;
+        %tmp.65 = "%.2f";
+        %tmp.66 = invoke %tmp.63 %tmp.64(%tmp.65);
+        push %tmp.66;
+        goto @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_81_21_81_54_end;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_81_21_81_54_false:
+        %tmp.67 = "--";
+        push %tmp.67;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_81_21_81_54_end:
+        %tmp.68 = phi [%tmp.61 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_81_21_81_54_begin] [%tmp.66 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_81_21_81_54_true] [%tmp.67 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_81_21_81_54_false] [%tmp.68 @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_81_21_81_54_end];
+        symbol [ accelZ ? 81 12 18 ];
+        putv self :accelZ %tmp.68;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_79_82_8_stop:
+        goto @_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_8_86_8_if_end;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_8_86_8_if_else_false:
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_82_15_86_8_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 83 12 ]
+        %tmp.69 = "--";
+        symbol [ accelX ? 83 12 18 ];
+        putv self :accelX %tmp.69;
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 84 12 ]
+        %tmp.70 = "--";
+        symbol [ accelY ? 84 12 18 ];
+        putv self :accelY %tmp.70;
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 85 12 ]
+        %tmp.71 = "--";
+        symbol [ accelZ ? 85 12 18 ];
+        putv self :accelZ %tmp.71;
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_82_15_86_8_stop:
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_73_8_86_8_if_end:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 88 8 ]
+        symbol [ WatchUi %tmp.72 88 8 15 ];
+        %tmp.72 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.73 88 16 29 ];
+        %tmp.73 = getv function %tmp.72 :requestUpdate;
+        invoke %tmp.72 %tmp.73();
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_66_67_89_4_stop:
+    }
+    [ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 92; @symbol_functiondef = [onUpdate,92,13,21]; @symbol_param<0> = [dc,92,22,24]; @symbol_param<0>_type<0> = [Graphics,92,28,36]; @symbol_param<0>_type<1> = [Dc,92,37,39]; ]
+    function onUpdate(dc as Graphics.Dc) as Void {
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_92_49_132_4_start:
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 94 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 94 8 10 ];
+        symbol [ setColor %tmp.2 94 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 94 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.4 94 29 40 ];
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        symbol [ Graphics %tmp.5 94 42 50 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 94 51 62 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 95 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 95 8 10 ];
+        symbol [ clear %tmp.8 95 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 98 8 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 98 8 10 ];
+        symbol [ setColor %tmp.10 98 11 19 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Graphics %tmp.11 98 20 28 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.12 98 29 40 ];
+        %tmp.12 = getv %tmp.11 :COLOR_WHITE;
+        symbol [ Graphics %tmp.13 98 42 50 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.14 98 51 68 ];
+        %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 101 8 ]
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 101 8 10 ];
+        symbol [ drawText %tmp.16 101 11 19 ];
+        %tmp.16 = getv function %tmp.15 :drawText;
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 101 20 22 ];
+        symbol [ getWidth %tmp.18 101 23 31 ];
+        %tmp.18 = getv function %tmp.17 :getWidth;
+        %tmp.19 = invoke %tmp.17 %tmp.18();
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        %tmp.22 = 20;
+        symbol [ Graphics %tmp.23 103 19 27 ];
+        %tmp.23 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.24 103 28 39 ];
+        %tmp.24 = getv %tmp.23 :FONT_MEDIUM;
+        %tmp.25 = "Sensor Data";
+        symbol [ Graphics %tmp.26 105 19 27 ];
+        %tmp.26 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.27 105 28 47 ];
+        %tmp.27 = getv %tmp.26 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.15 %tmp.16(%tmp.21, %tmp.22, %tmp.24, %tmp.25, %tmp.27);
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 108 8 ]
+        %tmp.28 = lgetv %dc;
+        symbol [ dc %tmp.28 108 8 10 ];
+        symbol [ drawText %tmp.29 108 11 19 ];
+        %tmp.29 = getv function %tmp.28 :drawText;
+        %tmp.30 = 20;
+        %tmp.31 = 60;
+        symbol [ Graphics %tmp.32 110 19 27 ];
+        %tmp.32 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.33 110 28 38 ];
+        %tmp.33 = getv %tmp.32 :FONT_SMALL;
+        %tmp.34 = "Heart Rate: ";
+        symbol [ hrValue %tmp.36 111 36 43 ];
+        %tmp.36 = getv ? :hrValue;
+        %tmp.37 = add %tmp.34 %tmp.36;
+        %tmp.38 = " bpm";
+        %tmp.39 = add %tmp.37 %tmp.38;
+        symbol [ Graphics %tmp.40 112 19 27 ];
+        %tmp.40 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.41 112 28 45 ];
+        %tmp.41 = getv %tmp.40 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.28 %tmp.29(%tmp.30, %tmp.31, %tmp.33, %tmp.39, %tmp.41);
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 115 8 ]
+        %tmp.42 = lgetv %dc;
+        symbol [ dc %tmp.42 115 8 10 ];
+        symbol [ drawText %tmp.43 115 11 19 ];
+        %tmp.43 = getv function %tmp.42 :drawText;
+        %tmp.44 = 20;
+        %tmp.45 = 90;
+        symbol [ Graphics %tmp.46 117 19 27 ];
+        %tmp.46 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.47 117 28 38 ];
+        %tmp.47 = getv %tmp.46 :FONT_SMALL;
+        %tmp.48 = "Accel X: ";
+        symbol [ accelX %tmp.50 118 33 39 ];
+        %tmp.50 = getv ? :accelX;
+        %tmp.51 = add %tmp.48 %tmp.50;
+        symbol [ Graphics %tmp.52 119 19 27 ];
+        %tmp.52 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.53 119 28 45 ];
+        %tmp.53 = getv %tmp.52 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.42 %tmp.43(%tmp.44, %tmp.45, %tmp.47, %tmp.51, %tmp.53);
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 121 8 ]
+        %tmp.54 = lgetv %dc;
+        symbol [ dc %tmp.54 121 8 10 ];
+        symbol [ drawText %tmp.55 121 11 19 ];
+        %tmp.55 = getv function %tmp.54 :drawText;
+        %tmp.56 = 20;
+        %tmp.57 = 120;
+        symbol [ Graphics %tmp.58 123 19 27 ];
+        %tmp.58 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.59 123 28 38 ];
+        %tmp.59 = getv %tmp.58 :FONT_SMALL;
+        %tmp.60 = "Accel Y: ";
+        symbol [ accelY %tmp.62 124 33 39 ];
+        %tmp.62 = getv ? :accelY;
+        %tmp.63 = add %tmp.60 %tmp.62;
+        symbol [ Graphics %tmp.64 125 19 27 ];
+        %tmp.64 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.65 125 28 45 ];
+        %tmp.65 = getv %tmp.64 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.54 %tmp.55(%tmp.56, %tmp.57, %tmp.59, %tmp.63, %tmp.65);
+[ "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" 127 8 ]
+        %tmp.66 = lgetv %dc;
+        symbol [ dc %tmp.66 127 8 10 ];
+        symbol [ drawText %tmp.67 127 11 19 ];
+        %tmp.67 = getv function %tmp.66 :drawText;
+        %tmp.68 = 20;
+        %tmp.69 = 150;
+        symbol [ Graphics %tmp.70 129 19 27 ];
+        %tmp.70 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.71 129 28 38 ];
+        %tmp.71 = getv %tmp.70 :FONT_SMALL;
+        %tmp.72 = "Accel Z: ";
+        symbol [ accelZ %tmp.74 130 33 39 ];
+        %tmp.74 = getv ? :accelZ;
+        %tmp.75 = add %tmp.72 %tmp.74;
+        symbol [ Graphics %tmp.76 131 19 27 ];
+        %tmp.76 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.77 131 28 45 ];
+        %tmp.77 = getv %tmp.76 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.66 %tmp.67(%tmp.68, %tmp.69, %tmp.71, %tmp.75, %tmp.77);
+_Users_Avra_Saslow_Documents_hockey_garmin_source_SimpleHeartRateTest_mc_92_49_132_4_stop:
+    }
+}
+[ @file = "/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/Avra.Saslow/Documents/hockey-garmin/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="1" lineNum="7" parent="globals/Rez" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="2" lineNum="28" parent="globals/HeartRateAndAccelView" pc="268435484" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminView.mc" id="3" lineNum="4" parent="globals/hockey_garminView" pc="268435503" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="4" lineNum="10" parent="globals/SimpleHeartRateTest" pc="268435522" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminMenuDelegate.mc" id="5" lineNum="5" parent="globals/hockey_garminMenuDelegate" pc="268435541" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminDelegate.mc" id="6" lineNum="4" parent="globals/hockey_garminDelegate" pc="268435560" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="7" lineNum="44" parent="globals/HeartRateAndAccelView" pc="268435579" symbol="onShow"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="7" lineNum="46" parent="globals/HeartRateAndAccelView" pc="268435583" symbol="onShow"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="7" lineNum="56" parent="globals/HeartRateAndAccelView" pc="268435652" symbol="onShow"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="8" lineNum="39" parent="globals/HeartRateAndAccelView" pc="268435687" symbol="onLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="66" parent="globals/HeartRateAndAccelView" pc="268435690" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="67" parent="globals/HeartRateAndAccelView" pc="268435694" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="68" parent="globals/HeartRateAndAccelView" pc="268435718" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="70" parent="globals/HeartRateAndAccelView" pc="268435746" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="73" parent="globals/HeartRateAndAccelView" pc="268435759" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="75" parent="globals/HeartRateAndAccelView" pc="268435783" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="76" parent="globals/HeartRateAndAccelView" pc="268435799" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="77" parent="globals/HeartRateAndAccelView" pc="268435815" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="79" parent="globals/HeartRateAndAccelView" pc="268435831" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="80" parent="globals/HeartRateAndAccelView" pc="268435870" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="81" parent="globals/HeartRateAndAccelView" pc="268435909" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="83" parent="globals/HeartRateAndAccelView" pc="268435951" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="84" parent="globals/HeartRateAndAccelView" pc="268435964" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="85" parent="globals/HeartRateAndAccelView" pc="268435977" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="9" lineNum="88" parent="globals/HeartRateAndAccelView" pc="268435990" symbol="onSensorData"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="10" lineNum="34" parent="globals/HeartRateAndAccelView" pc="268436007" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="10" lineNum="35" parent="globals/HeartRateAndAccelView" pc="268436009" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="11" lineNum="60" parent="globals/HeartRateAndAccelView" pc="268436028" symbol="onHide"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="11" lineNum="62" parent="globals/HeartRateAndAccelView" pc="268436030" symbol="onHide"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="12" lineNum="92" parent="globals/HeartRateAndAccelView" pc="268436047" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="12" lineNum="94" parent="globals/HeartRateAndAccelView" pc="268436049" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="12" lineNum="95" parent="globals/HeartRateAndAccelView" pc="268436071" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="12" lineNum="98" parent="globals/HeartRateAndAccelView" pc="268436083" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="12" lineNum="101" parent="globals/HeartRateAndAccelView" pc="268436105" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="12" lineNum="108" parent="globals/HeartRateAndAccelView" pc="268436154" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="12" lineNum="115" parent="globals/HeartRateAndAccelView" pc="268436206" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="12" lineNum="121" parent="globals/HeartRateAndAccelView" pc="268436252" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="12" lineNum="127" parent="globals/HeartRateAndAccelView" pc="268436298" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminView.mc" id="14" lineNum="11" parent="globals/hockey_garminView" pc="268436345" symbol="onLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminView.mc" id="14" lineNum="12" parent="globals/hockey_garminView" pc="268436347" symbol="onLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminView.mc" id="15" lineNum="6" parent="globals/hockey_garminView" pc="268436389" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminView.mc" id="15" lineNum="7" parent="globals/hockey_garminView" pc="268436391" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminView.mc" id="17" lineNum="22" parent="globals/hockey_garminView" pc="268436410" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminView.mc" id="17" lineNum="24" parent="globals/hockey_garminView" pc="268436412" symbol="onUpdate"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="18" lineNum="15" parent="globals/SimpleHeartRateTest" pc="268436433" symbol="onStart"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="19" lineNum="23" parent="globals/SimpleHeartRateTest" pc="268436436" symbol="getInitialView"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="19" lineNum="24" parent="globals/SimpleHeartRateTest" pc="268436438" symbol="getInitialView"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="20" lineNum="11" parent="globals/SimpleHeartRateTest" pc="268436479" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="20" lineNum="12" parent="globals/SimpleHeartRateTest" pc="268436481" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/SimpleHeartRateTest.mc" id="21" lineNum="19" parent="globals/SimpleHeartRateTest" pc="268436500" symbol="onStop"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminMenuDelegate.mc" id="22" lineNum="11" parent="globals/hockey_garminMenuDelegate" pc="268436503" symbol="onMenuItem"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminMenuDelegate.mc" id="22" lineNum="12" parent="globals/hockey_garminMenuDelegate" pc="268436505" symbol="onMenuItem"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminMenuDelegate.mc" id="22" lineNum="13" parent="globals/hockey_garminMenuDelegate" pc="268436516" symbol="onMenuItem"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminMenuDelegate.mc" id="22" lineNum="14" parent="globals/hockey_garminMenuDelegate" pc="268436540" symbol="onMenuItem"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminMenuDelegate.mc" id="22" lineNum="15" parent="globals/hockey_garminMenuDelegate" pc="268436551" symbol="onMenuItem"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminMenuDelegate.mc" id="23" lineNum="7" parent="globals/hockey_garminMenuDelegate" pc="268436576" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminMenuDelegate.mc" id="23" lineNum="8" parent="globals/hockey_garminMenuDelegate" pc="268436578" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminDelegate.mc" id="24" lineNum="10" parent="globals/hockey_garminDelegate" pc="268436597" symbol="onMenu"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminDelegate.mc" id="24" lineNum="11" parent="globals/hockey_garminDelegate" pc="268436599" symbol="onMenu"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminDelegate.mc" id="24" lineNum="12" parent="globals/hockey_garminDelegate" pc="268436684" symbol="onMenu"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminDelegate.mc" id="25" lineNum="6" parent="globals/hockey_garminDelegate" pc="268436687" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/source/hockey-garminDelegate.mc" id="25" lineNum="7" parent="globals/hockey_garminDelegate" pc="268436689" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="26" lineNum="14" parent="globals/Rez/Layouts" pc="268436708" symbol="MainLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="26" lineNum="15" parent="globals/Rez/Layouts" pc="268436720" symbol="MainLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="26" lineNum="17" parent="globals/Rez/Layouts" pc="268436851" symbol="MainLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="26" lineNum="18" parent="globals/Rez/Layouts" pc="268436956" symbol="MainLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="26" lineNum="20" parent="globals/Rez/Layouts" pc="268436996" symbol="MainLayout"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="27" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268437023" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="28" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268437042" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="28" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268437044" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="28" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268437062" symbol="initialize"/>
+        <entry filename="/Users/Avra.Saslow/Documents/hockey-garmin/bin/gen/006-B3113-00/source/Rez.mcgen" id="28" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268437118" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="10" object="true" symbol="hockey_garminMenuDelegate"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="21" method="true" symbol="MainLayout"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="18" method="true" symbol="onSensorData"/>
+        <entry field="true" id="23" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389080" method="true" symbol="onMenu"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="26" symbol="prompt"/>
+        <entry field="true" id="20" symbol="id_monkey"/>
+        <entry field="true" id="17" symbol="&lt;globals/HeartRateAndAccelView/&lt;&gt;hrValue&gt;"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="28" symbol="item_2"/>
+        <entry id="27" symbol="item_1"/>
+        <entry id="13" module="true" symbol="Menus"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="8390648" symbol="accelerometer"/>
+        <entry id="7" object="true" symbol="HeartRateAndAccelView"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="22" object="true" symbol="MainMenu"/>
+        <entry id="8" object="true" symbol="SimpleHeartRateTest"/>
+        <entry field="true" id="8390438" symbol="enabled"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="16" symbol="&lt;globals/HeartRateAndAccelView/&lt;&gt;accelZ&gt;"/>
+        <entry field="true" id="15" symbol="&lt;globals/HeartRateAndAccelView/&lt;&gt;accelY&gt;"/>
+        <entry field="true" id="14" symbol="&lt;globals/HeartRateAndAccelView/&lt;&gt;accelX&gt;"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="9" object="true" symbol="hockey_garminDelegate"/>
+        <entry field="true" id="19" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8388643" module="true" symbol="Sensor"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="8388960" symbol="heartRate"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389808" symbol="period"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389109" method="true" symbol="onMenuItem"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="11" object="true" symbol="hockey_garminView"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="12" module="true" symbol="Layouts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="25" symbol="menu_label_2"/>
+        <entry field="true" id="24" symbol="menu_label_1"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435685" name="options" stackId="1" startPc="268435583"/>
+        <entry arg="true" endPc="268436006" name="sensorData" stackId="1" startPc="268435690"/>
+        <entry endPc="268435947" name="x" stackId="2" startPc="268435783"/>
+        <entry endPc="268435947" name="y" stackId="3" startPc="268435783"/>
+        <entry endPc="268435947" name="z" stackId="4" startPc="268435783"/>
+        <entry arg="true" endPc="268436344" name="dc" stackId="1" startPc="268436047"/>
+        <entry arg="true" endPc="268436388" name="dc" stackId="1" startPc="268436345"/>
+        <entry arg="true" endPc="268436432" name="dc" stackId="1" startPc="268436410"/>
+        <entry arg="true" endPc="268436575" name="item" stackId="1" startPc="268436503"/>
+        <entry arg="true" endPc="268437022" name="dc" stackId="1" startPc="268436708"/>
+        <entry endPc="268437022" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268436720"/>
+        <entry endPc="268437022" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268436720"/>
+    </localVars>
+    <deviceInfo deviceVersion="722eeea457636580f75a28ae6c94dcea8ad83696" partNumber="006-B3113-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Rez" offset="158" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/HeartRateAndAccelView" offset="221" parentId="globals" symbolId="HeartRateAndAccelView" type="class"/>
+        <dataEntry label="globals/hockey_garminView" offset="340" parentId="globals" symbolId="hockey_garminView" type="class"/>
+        <dataEntry label="globals/SimpleHeartRateTest" offset="419" parentId="globals" symbolId="SimpleHeartRateTest" type="class"/>
+        <dataEntry label="globals/hockey_garminMenuDelegate" offset="490" parentId="globals" symbolId="hockey_garminMenuDelegate" type="class"/>
+        <dataEntry label="globals/hockey_garminDelegate" offset="545" parentId="globals" symbolId="hockey_garminDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="600" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="647" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="686" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="725" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="788" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435483" name="&lt;init&gt;" parent="Rez" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435502" name="&lt;init&gt;" parent="HeartRateAndAccelView" startPc="268435484">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="hockey_garminView" startPc="268435503">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435540" name="&lt;init&gt;" parent="SimpleHeartRateTest" startPc="268435522">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435559" name="&lt;init&gt;" parent="hockey_garminMenuDelegate" startPc="268435541">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435578" name="&lt;init&gt;" parent="hockey_garminDelegate" startPc="268435560">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435686" name="onShow" parent="HeartRateAndAccelView" startPc="268435579">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435689" name="onLayout" parent="HeartRateAndAccelView" startPc="268435687">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436006" name="onSensorData" parent="HeartRateAndAccelView" startPc="268435690">
+            <param id="sensorData"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436027" name="initialize" parent="HeartRateAndAccelView" startPc="268436007">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436046" name="onHide" parent="HeartRateAndAccelView" startPc="268436028">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436344" name="onUpdate" parent="HeartRateAndAccelView" startPc="268436047">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="hockey_garminView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436388" name="onLayout" parent="hockey_garminView" startPc="268436345">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436409" name="initialize" parent="hockey_garminView" startPc="268436389">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="hockey_garminView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436432" name="onUpdate" parent="hockey_garminView" startPc="268436410">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436435" name="onStart" parent="SimpleHeartRateTest" startPc="268436433">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436478" name="getInitialView" parent="SimpleHeartRateTest" startPc="268436436">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436499" name="initialize" parent="SimpleHeartRateTest" startPc="268436479">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436502" name="onStop" parent="SimpleHeartRateTest" startPc="268436500">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436575" name="onMenuItem" parent="hockey_garminMenuDelegate" startPc="268436503">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436596" name="initialize" parent="hockey_garminMenuDelegate" startPc="268436576">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436686" name="onMenu" parent="hockey_garminDelegate" startPc="268436597">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436707" name="initialize" parent="hockey_garminDelegate" startPc="268436687">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437022" name="MainLayout" parent="Layouts" startPc="268436708">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437041" name="&lt;init&gt;" parent="MainMenu" startPc="268437023">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437174" name="initialize" parent="MainMenu" startPc="268437042">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
