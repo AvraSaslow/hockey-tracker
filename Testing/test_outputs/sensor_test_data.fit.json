@@ -5,13 +5,13 @@
       "type": "activity",
       "manufacturer": "development",
       "product": 1,
-      "time_created": "2025-03-09 16:43:56.825978"
+      "time_created": "2025-03-09 16:55:41.601913"
     }
   },
   {
     "type": "device_info",
     "data": {
-      "timestamp": "2025-03-09 16:43:56.825978",
+      "timestamp": "2025-03-09 16:55:41.601913",
       "manufacturer": "garmin",
       "product": "hockey_tracker",
       "software_version": 1.0
@@ -20,14 +20,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:56.825987",
+      "timestamp": "2025-03-09 16:55:41.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:56.825987",
+      "timestamp": "2025-03-09 16:55:41.601922",
       "acceleration_x": 0.42,
       "acceleration_y": -0.168,
       "acceleration_z": 1.681
@@ -36,7 +36,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:56.925987",
+      "timestamp": "2025-03-09 16:55:41.701922",
       "acceleration_x": -0.254,
       "acceleration_y": 0.317,
       "acceleration_z": 1.619
@@ -45,7 +45,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.025987",
+      "timestamp": "2025-03-09 16:55:41.801922",
       "acceleration_x": -0.14,
       "acceleration_y": 0.502,
       "acceleration_z": 1.913
@@ -54,7 +54,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.125987",
+      "timestamp": "2025-03-09 16:55:41.901922",
       "acceleration_x": 0.282,
       "acceleration_y": 0.303,
       "acceleration_z": 1.109
@@ -63,7 +63,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.225987",
+      "timestamp": "2025-03-09 16:55:42.001922",
       "acceleration_x": 0.254,
       "acceleration_y": 0.34,
       "acceleration_z": 1.525
@@ -72,7 +72,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.325987",
+      "timestamp": "2025-03-09 16:55:42.101922",
       "acceleration_x": 0.534,
       "acceleration_y": 0.178,
       "acceleration_z": 1.245
@@ -81,7 +81,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.425987",
+      "timestamp": "2025-03-09 16:55:42.201922",
       "acceleration_x": 0.182,
       "acceleration_y": 0.315,
       "acceleration_z": 0.986
@@ -90,7 +90,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.525987",
+      "timestamp": "2025-03-09 16:55:42.301922",
       "acceleration_x": 0.103,
       "acceleration_y": 0.468,
       "acceleration_z": 1.258
@@ -99,7 +99,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.625987",
+      "timestamp": "2025-03-09 16:55:42.401922",
       "acceleration_x": 0.692,
       "acceleration_y": 0.33,
       "acceleration_z": 1.056
@@ -108,7 +108,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.725987",
+      "timestamp": "2025-03-09 16:55:42.501922",
       "acceleration_x": 0.689,
       "acceleration_y": 0.051,
       "acceleration_z": 0.809
@@ -117,14 +117,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.825987",
+      "timestamp": "2025-03-09 16:55:42.601922",
       "heart_rate": 63
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.825987",
+      "timestamp": "2025-03-09 16:55:42.601922",
       "acceleration_x": 0.413,
       "acceleration_y": 0.266,
       "acceleration_z": 0.964
@@ -133,7 +133,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:57.925987",
+      "timestamp": "2025-03-09 16:55:42.701922",
       "acceleration_x": 0.722,
       "acceleration_y": -0.049,
       "acceleration_z": 0.458
@@ -142,7 +142,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.025987",
+      "timestamp": "2025-03-09 16:55:42.801922",
       "acceleration_x": 0.361,
       "acceleration_y": -0.111,
       "acceleration_z": 0.96
@@ -151,7 +151,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.125987",
+      "timestamp": "2025-03-09 16:55:42.901922",
       "acceleration_x": 0.46,
       "acceleration_y": 0.022,
       "acceleration_z": 0.482
@@ -160,7 +160,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.225987",
+      "timestamp": "2025-03-09 16:55:43.001922",
       "acceleration_x": 0.574,
       "acceleration_y": -0.182,
       "acceleration_z": 0.881
@@ -169,7 +169,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.325987",
+      "timestamp": "2025-03-09 16:55:43.101922",
       "acceleration_x": 0.388,
       "acceleration_y": -0.315,
       "acceleration_z": 0.564
@@ -178,7 +178,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.425987",
+      "timestamp": "2025-03-09 16:55:43.201922",
       "acceleration_x": 0.317,
       "acceleration_y": -0.041,
       "acceleration_z": 0.693
@@ -187,7 +187,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.525987",
+      "timestamp": "2025-03-09 16:55:43.301922",
       "acceleration_x": 0.625,
       "acceleration_y": -0.318,
       "acceleration_z": 1.169
@@ -196,7 +196,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.625987",
+      "timestamp": "2025-03-09 16:55:43.401922",
       "acceleration_x": 0.675,
       "acceleration_y": -0.181,
       "acceleration_z": 1.348
@@ -205,7 +205,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.725987",
+      "timestamp": "2025-03-09 16:55:43.501922",
       "acceleration_x": 0.504,
       "acceleration_y": -0.452,
       "acceleration_z": 1.206
@@ -214,14 +214,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.825987",
+      "timestamp": "2025-03-09 16:55:43.601922",
       "heart_rate": 48
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.825987",
+      "timestamp": "2025-03-09 16:55:43.601922",
       "acceleration_x": 0.103,
       "acceleration_y": -0.192,
       "acceleration_z": 1.188
@@ -230,7 +230,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:58.925987",
+      "timestamp": "2025-03-09 16:55:43.701922",
       "acceleration_x": 0.525,
       "acceleration_y": -0.357,
       "acceleration_z": 1.408
@@ -239,7 +239,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.025987",
+      "timestamp": "2025-03-09 16:55:43.801922",
       "acceleration_x": 0.225,
       "acceleration_y": -0.331,
       "acceleration_z": 1.41
@@ -248,7 +248,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.125987",
+      "timestamp": "2025-03-09 16:55:43.901922",
       "acceleration_x": 0.334,
       "acceleration_y": -0.192,
       "acceleration_z": 1.277
@@ -257,7 +257,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.225987",
+      "timestamp": "2025-03-09 16:55:44.001922",
       "acceleration_x": 0.173,
       "acceleration_y": -0.066,
       "acceleration_z": 0.905
@@ -266,7 +266,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.325987",
+      "timestamp": "2025-03-09 16:55:44.101922",
       "acceleration_x": 0.133,
       "acceleration_y": 0.111,
       "acceleration_z": 1.03
@@ -275,7 +275,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.425987",
+      "timestamp": "2025-03-09 16:55:44.201922",
       "acceleration_x": 0.079,
       "acceleration_y": 0.168,
       "acceleration_z": 0.744
@@ -284,7 +284,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.525987",
+      "timestamp": "2025-03-09 16:55:44.301922",
       "acceleration_x": 0.09,
       "acceleration_y": 0.245,
       "acceleration_z": 0.998
@@ -293,7 +293,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.625987",
+      "timestamp": "2025-03-09 16:55:44.401922",
       "acceleration_x": -0.123,
       "acceleration_y": 0.261,
       "acceleration_z": 0.574
@@ -302,7 +302,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.725987",
+      "timestamp": "2025-03-09 16:55:44.501922",
       "acceleration_x": 0.005,
       "acceleration_y": 0.159,
       "acceleration_z": 0.508
@@ -311,14 +311,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.825987",
+      "timestamp": "2025-03-09 16:55:44.601922",
       "heart_rate": 64
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.825987",
+      "timestamp": "2025-03-09 16:55:44.601922",
       "acceleration_x": -0.055,
       "acceleration_y": 0.254,
       "acceleration_z": 0.997
@@ -327,7 +327,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:43:59.925987",
+      "timestamp": "2025-03-09 16:55:44.701922",
       "acceleration_x": -0.348,
       "acceleration_y": 0.283,
       "acceleration_z": 0.831
@@ -336,7 +336,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.025987",
+      "timestamp": "2025-03-09 16:55:44.801922",
       "acceleration_x": -0.671,
       "acceleration_y": 0.157,
       "acceleration_z": 0.893
@@ -345,7 +345,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.125987",
+      "timestamp": "2025-03-09 16:55:44.901922",
       "acceleration_x": -0.253,
       "acceleration_y": 0.434,
       "acceleration_z": 0.673
@@ -354,7 +354,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.225987",
+      "timestamp": "2025-03-09 16:55:45.001922",
       "acceleration_x": -0.64,
       "acceleration_y": 0.348,
       "acceleration_z": 1.045
@@ -363,7 +363,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.325987",
+      "timestamp": "2025-03-09 16:55:45.101922",
       "acceleration_x": -0.335,
       "acceleration_y": 0.347,
       "acceleration_z": 1.176
@@ -372,7 +372,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.425987",
+      "timestamp": "2025-03-09 16:55:45.201922",
       "acceleration_x": -0.619,
       "acceleration_y": 0.009,
       "acceleration_z": 1.22
@@ -381,7 +381,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.525987",
+      "timestamp": "2025-03-09 16:55:45.301922",
       "acceleration_x": -0.756,
       "acceleration_y": -0.127,
       "acceleration_z": 1.46
@@ -390,7 +390,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.625987",
+      "timestamp": "2025-03-09 16:55:45.401922",
       "acceleration_x": -0.601,
       "acceleration_y": -0.126,
       "acceleration_z": 1.594
@@ -399,7 +399,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.725987",
+      "timestamp": "2025-03-09 16:55:45.501922",
       "acceleration_x": -0.408,
       "acceleration_y": 0.018,
       "acceleration_z": 1.525
@@ -408,14 +408,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.825987",
+      "timestamp": "2025-03-09 16:55:45.601922",
       "heart_rate": 62
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.825987",
+      "timestamp": "2025-03-09 16:55:45.601922",
       "acceleration_x": -0.434,
       "acceleration_y": -0.375,
       "acceleration_z": 1.14
@@ -424,7 +424,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:00.925987",
+      "timestamp": "2025-03-09 16:55:45.701922",
       "acceleration_x": -0.658,
       "acceleration_y": -0.031,
       "acceleration_z": 1.21
@@ -433,7 +433,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.025987",
+      "timestamp": "2025-03-09 16:55:45.801922",
       "acceleration_x": -0.609,
       "acceleration_y": -0.303,
       "acceleration_z": 0.701
@@ -442,7 +442,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.125987",
+      "timestamp": "2025-03-09 16:55:45.901922",
       "acceleration_x": -0.142,
       "acceleration_y": -0.176,
       "acceleration_z": 0.701
@@ -451,7 +451,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.225987",
+      "timestamp": "2025-03-09 16:55:46.001922",
       "acceleration_x": -0.273,
       "acceleration_y": -0.227,
       "acceleration_z": 0.567
@@ -460,7 +460,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.325987",
+      "timestamp": "2025-03-09 16:55:46.101922",
       "acceleration_x": -0.212,
       "acceleration_y": -0.157,
       "acceleration_z": 0.685
@@ -469,7 +469,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.425987",
+      "timestamp": "2025-03-09 16:55:46.201922",
       "acceleration_x": -0.175,
       "acceleration_y": -0.44,
       "acceleration_z": 0.702
@@ -478,7 +478,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.525987",
+      "timestamp": "2025-03-09 16:55:46.301922",
       "acceleration_x": -0.042,
       "acceleration_y": -0.06,
       "acceleration_z": 0.47
@@ -487,7 +487,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.625987",
+      "timestamp": "2025-03-09 16:55:46.401922",
       "acceleration_x": 0.024,
       "acceleration_y": 0.047,
       "acceleration_z": 0.639
@@ -496,7 +496,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.725987",
+      "timestamp": "2025-03-09 16:55:46.501922",
       "acceleration_x": -0.079,
       "acceleration_y": -0.001,
       "acceleration_z": 0.594
@@ -505,14 +505,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.825987",
+      "timestamp": "2025-03-09 16:55:46.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.825987",
+      "timestamp": "2025-03-09 16:55:46.601922",
       "acceleration_x": -0.061,
       "acceleration_y": 0.06,
       "acceleration_z": 1.077
@@ -521,7 +521,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:01.925987",
+      "timestamp": "2025-03-09 16:55:46.701922",
       "acceleration_x": 0.272,
       "acceleration_y": -0.096,
       "acceleration_z": 0.933
@@ -530,7 +530,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.025987",
+      "timestamp": "2025-03-09 16:55:46.801922",
       "acceleration_x": 0.012,
       "acceleration_y": 0.065,
       "acceleration_z": 1.45
@@ -539,7 +539,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.125987",
+      "timestamp": "2025-03-09 16:55:46.901922",
       "acceleration_x": 0.317,
       "acceleration_y": 0.063,
       "acceleration_z": 1.339
@@ -548,7 +548,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.225987",
+      "timestamp": "2025-03-09 16:55:47.001922",
       "acceleration_x": 0.508,
       "acceleration_y": 0.131,
       "acceleration_z": 1.585
@@ -557,7 +557,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.325987",
+      "timestamp": "2025-03-09 16:55:47.101922",
       "acceleration_x": 0.293,
       "acceleration_y": 0.453,
       "acceleration_z": 1.49
@@ -566,7 +566,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.425987",
+      "timestamp": "2025-03-09 16:55:47.201922",
       "acceleration_x": 0.624,
       "acceleration_y": 0.48,
       "acceleration_z": 1.162
@@ -575,7 +575,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.525987",
+      "timestamp": "2025-03-09 16:55:47.301922",
       "acceleration_x": 0.58,
       "acceleration_y": 0.12,
       "acceleration_z": 0.98
@@ -584,7 +584,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.625987",
+      "timestamp": "2025-03-09 16:55:47.401922",
       "acceleration_x": 0.673,
       "acceleration_y": 0.2,
       "acceleration_z": 1.187
@@ -593,7 +593,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.725987",
+      "timestamp": "2025-03-09 16:55:47.501922",
       "acceleration_x": 0.428,
       "acceleration_y": 0.257,
       "acceleration_z": 0.909
@@ -602,14 +602,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.825987",
+      "timestamp": "2025-03-09 16:55:47.601922",
       "heart_rate": 61
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.825987",
+      "timestamp": "2025-03-09 16:55:47.601922",
       "acceleration_x": 0.651,
       "acceleration_y": 0.281,
       "acceleration_z": 0.592
@@ -618,7 +618,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:02.925987",
+      "timestamp": "2025-03-09 16:55:47.701922",
       "acceleration_x": 0.62,
       "acceleration_y": 0.018,
       "acceleration_z": 1.024
@@ -627,7 +627,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.025987",
+      "timestamp": "2025-03-09 16:55:47.801922",
       "acceleration_x": 0.305,
       "acceleration_y": -0.079,
       "acceleration_z": 0.495
@@ -636,7 +636,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.125987",
+      "timestamp": "2025-03-09 16:55:47.901922",
       "acceleration_x": 0.476,
       "acceleration_y": 0.116,
       "acceleration_z": 0.888
@@ -645,7 +645,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.225987",
+      "timestamp": "2025-03-09 16:55:48.001922",
       "acceleration_x": 0.718,
       "acceleration_y": -0.281,
       "acceleration_z": 0.893
@@ -654,7 +654,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.325987",
+      "timestamp": "2025-03-09 16:55:48.101922",
       "acceleration_x": 0.746,
       "acceleration_y": -0.213,
       "acceleration_z": 0.992
@@ -663,7 +663,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.425987",
+      "timestamp": "2025-03-09 16:55:48.201922",
       "acceleration_x": 0.289,
       "acceleration_y": -0.242,
       "acceleration_z": 0.885
@@ -672,7 +672,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.525987",
+      "timestamp": "2025-03-09 16:55:48.301922",
       "acceleration_x": 0.454,
       "acceleration_y": -0.215,
       "acceleration_z": 0.797
@@ -681,7 +681,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.625987",
+      "timestamp": "2025-03-09 16:55:48.401922",
       "acceleration_x": 0.267,
       "acceleration_y": -0.229,
       "acceleration_z": 1.414
@@ -690,7 +690,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.725987",
+      "timestamp": "2025-03-09 16:55:48.501922",
       "acceleration_x": 0.323,
       "acceleration_y": -0.317,
       "acceleration_z": 1.31
@@ -699,14 +699,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.825987",
+      "timestamp": "2025-03-09 16:55:48.601922",
       "heart_rate": 61
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.825987",
+      "timestamp": "2025-03-09 16:55:48.601922",
       "acceleration_x": 0.356,
       "acceleration_y": -0.182,
       "acceleration_z": 1.062
@@ -715,7 +715,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:03.925987",
+      "timestamp": "2025-03-09 16:55:48.701922",
       "acceleration_x": 0.165,
       "acceleration_y": -0.284,
       "acceleration_z": 1.072
@@ -724,7 +724,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.025987",
+      "timestamp": "2025-03-09 16:55:48.801922",
       "acceleration_x": 0.038,
       "acceleration_y": -0.034,
       "acceleration_z": 1.482
@@ -733,7 +733,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.125987",
+      "timestamp": "2025-03-09 16:55:48.901922",
       "acceleration_x": 0.294,
       "acceleration_y": -0.233,
       "acceleration_z": 1.475
@@ -742,7 +742,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.225987",
+      "timestamp": "2025-03-09 16:55:49.001922",
       "acceleration_x": 0.237,
       "acceleration_y": 0.022,
       "acceleration_z": 1.359
@@ -751,7 +751,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.325987",
+      "timestamp": "2025-03-09 16:55:49.101922",
       "acceleration_x": 0.173,
       "acceleration_y": 0.056,
       "acceleration_z": 0.961
@@ -760,7 +760,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.425987",
+      "timestamp": "2025-03-09 16:55:49.201922",
       "acceleration_x": 0.106,
       "acceleration_y": -0.008,
       "acceleration_z": 0.631
@@ -769,7 +769,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.525987",
+      "timestamp": "2025-03-09 16:55:49.301922",
       "acceleration_x": -0.272,
       "acceleration_y": 0.166,
       "acceleration_z": 0.882
@@ -778,7 +778,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.625987",
+      "timestamp": "2025-03-09 16:55:49.401922",
       "acceleration_x": -0.137,
       "acceleration_y": 0.045,
       "acceleration_z": 0.64
@@ -787,7 +787,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.725987",
+      "timestamp": "2025-03-09 16:55:49.501922",
       "acceleration_x": 0.054,
       "acceleration_y": 0.364,
       "acceleration_z": 0.595
@@ -796,14 +796,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.825987",
+      "timestamp": "2025-03-09 16:55:49.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.825987",
+      "timestamp": "2025-03-09 16:55:49.601922",
       "acceleration_x": -0.448,
       "acceleration_y": 0.193,
       "acceleration_z": 0.701
@@ -812,7 +812,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:04.925987",
+      "timestamp": "2025-03-09 16:55:49.701922",
       "acceleration_x": -0.175,
       "acceleration_y": 0.125,
       "acceleration_z": 0.641
@@ -821,7 +821,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.025987",
+      "timestamp": "2025-03-09 16:55:49.801922",
       "acceleration_x": -0.506,
       "acceleration_y": 0.392,
       "acceleration_z": 0.59
@@ -830,7 +830,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.125987",
+      "timestamp": "2025-03-09 16:55:49.901922",
       "acceleration_x": -0.526,
       "acceleration_y": 0.178,
       "acceleration_z": 1.173
@@ -839,7 +839,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.225987",
+      "timestamp": "2025-03-09 16:55:50.001922",
       "acceleration_x": -0.74,
       "acceleration_y": 0.047,
       "acceleration_z": 1.244
@@ -848,7 +848,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.325987",
+      "timestamp": "2025-03-09 16:55:50.101922",
       "acceleration_x": -0.379,
       "acceleration_y": 0.224,
       "acceleration_z": 1.354
@@ -857,7 +857,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.425987",
+      "timestamp": "2025-03-09 16:55:50.201922",
       "acceleration_x": -0.58,
       "acceleration_y": 0.209,
       "acceleration_z": 1.326
@@ -866,7 +866,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.525987",
+      "timestamp": "2025-03-09 16:55:50.301922",
       "acceleration_x": -0.677,
       "acceleration_y": -0.141,
       "acceleration_z": 1.339
@@ -875,7 +875,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.625987",
+      "timestamp": "2025-03-09 16:55:50.401922",
       "acceleration_x": -0.753,
       "acceleration_y": -0.058,
       "acceleration_z": 1.492
@@ -884,7 +884,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.725987",
+      "timestamp": "2025-03-09 16:55:50.501922",
       "acceleration_x": -0.226,
       "acceleration_y": -0.101,
       "acceleration_z": 1.407
@@ -893,14 +893,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.825987",
+      "timestamp": "2025-03-09 16:55:50.601922",
       "heart_rate": 64
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.825987",
+      "timestamp": "2025-03-09 16:55:50.601922",
       "acceleration_x": -0.514,
       "acceleration_y": -0.13,
       "acceleration_z": 0.918
@@ -909,7 +909,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:05.925987",
+      "timestamp": "2025-03-09 16:55:50.701922",
       "acceleration_x": -0.419,
       "acceleration_y": -0.127,
       "acceleration_z": 1.123
@@ -918,7 +918,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.025987",
+      "timestamp": "2025-03-09 16:55:50.801922",
       "acceleration_x": -0.308,
       "acceleration_y": -0.195,
       "acceleration_z": 1.18
@@ -927,7 +927,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.125987",
+      "timestamp": "2025-03-09 16:55:50.901922",
       "acceleration_x": -0.476,
       "acceleration_y": -0.149,
       "acceleration_z": 0.643
@@ -936,7 +936,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.225987",
+      "timestamp": "2025-03-09 16:55:51.001922",
       "acceleration_x": -0.118,
       "acceleration_y": -0.325,
       "acceleration_z": 1.066
@@ -945,7 +945,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.325987",
+      "timestamp": "2025-03-09 16:55:51.101922",
       "acceleration_x": -0.302,
       "acceleration_y": -0.413,
       "acceleration_z": 0.721
@@ -954,7 +954,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.425987",
+      "timestamp": "2025-03-09 16:55:51.201922",
       "acceleration_x": -0.43,
       "acceleration_y": -0.385,
       "acceleration_z": 0.641
@@ -963,7 +963,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.525987",
+      "timestamp": "2025-03-09 16:55:51.301922",
       "acceleration_x": -0.445,
       "acceleration_y": -0.152,
       "acceleration_z": 0.644
@@ -972,7 +972,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.625987",
+      "timestamp": "2025-03-09 16:55:51.401922",
       "acceleration_x": -0.111,
       "acceleration_y": -0.075,
       "acceleration_z": 0.56
@@ -981,7 +981,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.725987",
+      "timestamp": "2025-03-09 16:55:51.501922",
       "acceleration_x": -0.173,
       "acceleration_y": -0.264,
       "acceleration_z": 0.726
@@ -990,14 +990,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.825987",
+      "timestamp": "2025-03-09 16:55:51.601922",
       "heart_rate": 65
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.825987",
+      "timestamp": "2025-03-09 16:55:51.601922",
       "acceleration_x": -0.102,
       "acceleration_y": -0.298,
       "acceleration_z": 1.62
@@ -1006,7 +1006,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:06.925987",
+      "timestamp": "2025-03-09 16:55:51.701922",
       "acceleration_x": 0.174,
       "acceleration_y": 0.266,
       "acceleration_z": 1.767
@@ -1015,7 +1015,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.025987",
+      "timestamp": "2025-03-09 16:55:51.801922",
       "acceleration_x": 0.221,
       "acceleration_y": 0.081,
       "acceleration_z": 1.524
@@ -1024,7 +1024,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.125987",
+      "timestamp": "2025-03-09 16:55:51.901922",
       "acceleration_x": 0.409,
       "acceleration_y": 0.173,
       "acceleration_z": 1.096
@@ -1033,7 +1033,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.225987",
+      "timestamp": "2025-03-09 16:55:52.001922",
       "acceleration_x": 0.335,
       "acceleration_y": 0.235,
       "acceleration_z": 1.239
@@ -1042,7 +1042,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.325987",
+      "timestamp": "2025-03-09 16:55:52.101922",
       "acceleration_x": 0.148,
       "acceleration_y": 0.206,
       "acceleration_z": 1.113
@@ -1051,7 +1051,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.425987",
+      "timestamp": "2025-03-09 16:55:52.201922",
       "acceleration_x": 0.512,
       "acceleration_y": 0.366,
       "acceleration_z": 1.329
@@ -1060,7 +1060,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.525987",
+      "timestamp": "2025-03-09 16:55:52.301922",
       "acceleration_x": 0.093,
       "acceleration_y": 0.476,
       "acceleration_z": 1.217
@@ -1069,7 +1069,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.625987",
+      "timestamp": "2025-03-09 16:55:52.401922",
       "acceleration_x": 0.227,
       "acceleration_y": 0.144,
       "acceleration_z": 1.2
@@ -1078,7 +1078,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.725987",
+      "timestamp": "2025-03-09 16:55:52.501922",
       "acceleration_x": 0.157,
       "acceleration_y": 0.334,
       "acceleration_z": 0.861
@@ -1087,14 +1087,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.825987",
+      "timestamp": "2025-03-09 16:55:52.601922",
       "heart_rate": 63
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.825987",
+      "timestamp": "2025-03-09 16:55:52.601922",
       "acceleration_x": 0.419,
       "acceleration_y": 0.252,
       "acceleration_z": 0.891
@@ -1103,7 +1103,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:07.925987",
+      "timestamp": "2025-03-09 16:55:52.701922",
       "acceleration_x": 0.533,
       "acceleration_y": 0.233,
       "acceleration_z": 0.633
@@ -1112,7 +1112,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.025987",
+      "timestamp": "2025-03-09 16:55:52.801922",
       "acceleration_x": 0.638,
       "acceleration_y": 0.098,
       "acceleration_z": 0.574
@@ -1121,7 +1121,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.125987",
+      "timestamp": "2025-03-09 16:55:52.901922",
       "acceleration_x": 0.495,
       "acceleration_y": 0.028,
       "acceleration_z": 0.509
@@ -1130,7 +1130,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.225987",
+      "timestamp": "2025-03-09 16:55:53.001922",
       "acceleration_x": 0.694,
       "acceleration_y": -0.205,
       "acceleration_z": 0.549
@@ -1139,7 +1139,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.325987",
+      "timestamp": "2025-03-09 16:55:53.101922",
       "acceleration_x": 0.595,
       "acceleration_y": -0.16,
       "acceleration_z": 1.051
@@ -1148,7 +1148,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.425987",
+      "timestamp": "2025-03-09 16:55:53.201922",
       "acceleration_x": 0.458,
       "acceleration_y": -0.294,
       "acceleration_z": 1.18
@@ -1157,7 +1157,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.525987",
+      "timestamp": "2025-03-09 16:55:53.301922",
       "acceleration_x": 0.149,
       "acceleration_y": -0.279,
       "acceleration_z": 0.923
@@ -1166,7 +1166,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.625987",
+      "timestamp": "2025-03-09 16:55:53.401922",
       "acceleration_x": 0.574,
       "acceleration_y": -0.383,
       "acceleration_z": 1.139
@@ -1175,7 +1175,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.725987",
+      "timestamp": "2025-03-09 16:55:53.501922",
       "acceleration_x": 0.174,
       "acceleration_y": -0.35,
       "acceleration_z": 1.187
@@ -1184,14 +1184,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.825987",
+      "timestamp": "2025-03-09 16:55:53.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.825987",
+      "timestamp": "2025-03-09 16:55:53.601922",
       "acceleration_x": 0.476,
       "acceleration_y": -0.43,
       "acceleration_z": 1.274
@@ -1200,7 +1200,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:08.925987",
+      "timestamp": "2025-03-09 16:55:53.701922",
       "acceleration_x": 0.101,
       "acceleration_y": -0.266,
       "acceleration_z": 1.338
@@ -1209,7 +1209,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.025987",
+      "timestamp": "2025-03-09 16:55:53.801922",
       "acceleration_x": 0.467,
       "acceleration_y": -0.009,
       "acceleration_z": 1.214
@@ -1218,7 +1218,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.125987",
+      "timestamp": "2025-03-09 16:55:53.901922",
       "acceleration_x": 0.264,
       "acceleration_y": 0.011,
       "acceleration_z": 1.062
@@ -1227,7 +1227,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.225987",
+      "timestamp": "2025-03-09 16:55:54.001922",
       "acceleration_x": 0.055,
       "acceleration_y": -0.033,
       "acceleration_z": 1.347
@@ -1236,7 +1236,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.325987",
+      "timestamp": "2025-03-09 16:55:54.101922",
       "acceleration_x": -0.211,
       "acceleration_y": 0.14,
       "acceleration_z": 0.982
@@ -1245,7 +1245,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.425987",
+      "timestamp": "2025-03-09 16:55:54.201922",
       "acceleration_x": -0.039,
       "acceleration_y": 0.273,
       "acceleration_z": 0.831
@@ -1254,7 +1254,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.525987",
+      "timestamp": "2025-03-09 16:55:54.301922",
       "acceleration_x": -0.091,
       "acceleration_y": 0.061,
       "acceleration_z": 0.505
@@ -1263,7 +1263,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.625987",
+      "timestamp": "2025-03-09 16:55:54.401922",
       "acceleration_x": -0.219,
       "acceleration_y": 0.347,
       "acceleration_z": 0.786
@@ -1272,7 +1272,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.725987",
+      "timestamp": "2025-03-09 16:55:54.501922",
       "acceleration_x": -0.342,
       "acceleration_y": 0.369,
       "acceleration_z": 0.758
@@ -1281,14 +1281,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.825987",
+      "timestamp": "2025-03-09 16:55:54.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.825987",
+      "timestamp": "2025-03-09 16:55:54.601922",
       "acceleration_x": -0.483,
       "acceleration_y": 0.458,
       "acceleration_z": 0.832
@@ -1297,7 +1297,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:09.925987",
+      "timestamp": "2025-03-09 16:55:54.701922",
       "acceleration_x": -0.235,
       "acceleration_y": 0.116,
       "acceleration_z": 0.612
@@ -1306,7 +1306,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.025987",
+      "timestamp": "2025-03-09 16:55:54.801922",
       "acceleration_x": -0.577,
       "acceleration_y": 0.431,
       "acceleration_z": 0.908
@@ -1315,7 +1315,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.125987",
+      "timestamp": "2025-03-09 16:55:54.901922",
       "acceleration_x": -0.595,
       "acceleration_y": 0.229,
       "acceleration_z": 1.133
@@ -1324,7 +1324,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.225987",
+      "timestamp": "2025-03-09 16:55:55.001922",
       "acceleration_x": -0.208,
       "acceleration_y": 0.093,
       "acceleration_z": 1.281
@@ -1333,7 +1333,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.325987",
+      "timestamp": "2025-03-09 16:55:55.101922",
       "acceleration_x": -0.351,
       "acceleration_y": 0.111,
       "acceleration_z": 1.041
@@ -1342,7 +1342,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.425987",
+      "timestamp": "2025-03-09 16:55:55.201922",
       "acceleration_x": -0.45,
       "acceleration_y": 0.173,
       "acceleration_z": 1.431
@@ -1351,7 +1351,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.525987",
+      "timestamp": "2025-03-09 16:55:55.301922",
       "acceleration_x": -0.735,
       "acceleration_y": 0.22,
       "acceleration_z": 1.54
@@ -1360,7 +1360,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.625987",
+      "timestamp": "2025-03-09 16:55:55.401922",
       "acceleration_x": -0.435,
       "acceleration_y": 0.092,
       "acceleration_z": 1.07
@@ -1369,7 +1369,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.725987",
+      "timestamp": "2025-03-09 16:55:55.501922",
       "acceleration_x": -0.36,
       "acceleration_y": -0.069,
       "acceleration_z": 1.211
@@ -1378,14 +1378,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.825987",
+      "timestamp": "2025-03-09 16:55:55.601922",
       "heart_rate": 61
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.825987",
+      "timestamp": "2025-03-09 16:55:55.601922",
       "acceleration_x": -0.713,
       "acceleration_y": -0.374,
       "acceleration_z": 0.877
@@ -1394,7 +1394,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:10.925987",
+      "timestamp": "2025-03-09 16:55:55.701922",
       "acceleration_x": -0.215,
       "acceleration_y": -0.172,
       "acceleration_z": 0.786
@@ -1403,7 +1403,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.025987",
+      "timestamp": "2025-03-09 16:55:55.801922",
       "acceleration_x": -0.482,
       "acceleration_y": -0.427,
       "acceleration_z": 0.919
@@ -1412,7 +1412,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.125987",
+      "timestamp": "2025-03-09 16:55:55.901922",
       "acceleration_x": -0.438,
       "acceleration_y": -0.105,
       "acceleration_z": 0.586
@@ -1421,7 +1421,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.225987",
+      "timestamp": "2025-03-09 16:55:56.001922",
       "acceleration_x": -0.482,
       "acceleration_y": -0.117,
       "acceleration_z": 0.995
@@ -1430,7 +1430,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.325987",
+      "timestamp": "2025-03-09 16:55:56.101922",
       "acceleration_x": -0.588,
       "acceleration_y": -0.156,
       "acceleration_z": 0.973
@@ -1439,7 +1439,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.425987",
+      "timestamp": "2025-03-09 16:55:56.201922",
       "acceleration_x": -0.186,
       "acceleration_y": -0.425,
       "acceleration_z": 0.776
@@ -1448,7 +1448,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.525987",
+      "timestamp": "2025-03-09 16:55:56.301922",
       "acceleration_x": -0.355,
       "acceleration_y": -0.094,
       "acceleration_z": 0.449
@@ -1457,7 +1457,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.625987",
+      "timestamp": "2025-03-09 16:55:56.401922",
       "acceleration_x": -0.06,
       "acceleration_y": -0.092,
       "acceleration_z": 0.62
@@ -1466,7 +1466,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.725987",
+      "timestamp": "2025-03-09 16:55:56.501922",
       "acceleration_x": 0.038,
       "acceleration_y": -0.125,
       "acceleration_z": 0.999
@@ -1475,14 +1475,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.825987",
+      "timestamp": "2025-03-09 16:55:56.601922",
       "heart_rate": 61
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.825987",
+      "timestamp": "2025-03-09 16:55:56.601922",
       "acceleration_x": 0.212,
       "acceleration_y": 0.049,
       "acceleration_z": 0.857
@@ -1491,7 +1491,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:11.925987",
+      "timestamp": "2025-03-09 16:55:56.701922",
       "acceleration_x": -0.195,
       "acceleration_y": -0.069,
       "acceleration_z": 1.06
@@ -1500,7 +1500,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.025987",
+      "timestamp": "2025-03-09 16:55:56.801922",
       "acceleration_x": 0.237,
       "acceleration_y": 0.288,
       "acceleration_z": 1.448
@@ -1509,7 +1509,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.125987",
+      "timestamp": "2025-03-09 16:55:56.901922",
       "acceleration_x": 0.061,
       "acceleration_y": 0.315,
       "acceleration_z": 1.235
@@ -1518,7 +1518,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.225987",
+      "timestamp": "2025-03-09 16:55:57.001922",
       "acceleration_x": 0.044,
       "acceleration_y": 0.094,
       "acceleration_z": 1.526
@@ -1527,7 +1527,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.325987",
+      "timestamp": "2025-03-09 16:55:57.101922",
       "acceleration_x": 0.568,
       "acceleration_y": 0.435,
       "acceleration_z": 1.443
@@ -1536,7 +1536,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.425987",
+      "timestamp": "2025-03-09 16:55:57.201922",
       "acceleration_x": 0.641,
       "acceleration_y": 0.28,
       "acceleration_z": 1.08
@@ -1545,7 +1545,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.525987",
+      "timestamp": "2025-03-09 16:55:57.301922",
       "acceleration_x": 0.315,
       "acceleration_y": 0.129,
       "acceleration_z": 1.222
@@ -1554,7 +1554,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.625987",
+      "timestamp": "2025-03-09 16:55:57.401922",
       "acceleration_x": 0.139,
       "acceleration_y": 0.076,
       "acceleration_z": 1.327
@@ -1563,7 +1563,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.725987",
+      "timestamp": "2025-03-09 16:55:57.501922",
       "acceleration_x": 0.424,
       "acceleration_y": 0.195,
       "acceleration_z": 0.67
@@ -1572,14 +1572,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.825987",
+      "timestamp": "2025-03-09 16:55:57.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.825987",
+      "timestamp": "2025-03-09 16:55:57.601922",
       "acceleration_x": 0.611,
       "acceleration_y": 0.265,
       "acceleration_z": 1.106
@@ -1588,7 +1588,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:12.925987",
+      "timestamp": "2025-03-09 16:55:57.701922",
       "acceleration_x": 0.503,
       "acceleration_y": 0.048,
       "acceleration_z": 0.875
@@ -1597,7 +1597,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.025987",
+      "timestamp": "2025-03-09 16:55:57.801922",
       "acceleration_x": 0.582,
       "acceleration_y": 0.225,
       "acceleration_z": 0.471
@@ -1606,7 +1606,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.125987",
+      "timestamp": "2025-03-09 16:55:57.901922",
       "acceleration_x": 0.203,
       "acceleration_y": 0.069,
       "acceleration_z": 0.415
@@ -1615,7 +1615,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.225987",
+      "timestamp": "2025-03-09 16:55:58.001922",
       "acceleration_x": 0.423,
       "acceleration_y": 0.009,
       "acceleration_z": 0.836
@@ -1624,7 +1624,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.325987",
+      "timestamp": "2025-03-09 16:55:58.101922",
       "acceleration_x": 0.345,
       "acceleration_y": -0.247,
       "acceleration_z": 0.754
@@ -1633,7 +1633,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.425987",
+      "timestamp": "2025-03-09 16:55:58.201922",
       "acceleration_x": 0.518,
       "acceleration_y": -0.319,
       "acceleration_z": 0.878
@@ -1642,7 +1642,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.525987",
+      "timestamp": "2025-03-09 16:55:58.301922",
       "acceleration_x": 0.256,
       "acceleration_y": -0.141,
       "acceleration_z": 0.799
@@ -1651,7 +1651,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.625987",
+      "timestamp": "2025-03-09 16:55:58.401922",
       "acceleration_x": 0.117,
       "acceleration_y": -0.193,
       "acceleration_z": 0.996
@@ -1660,7 +1660,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.725987",
+      "timestamp": "2025-03-09 16:55:58.501922",
       "acceleration_x": 0.521,
       "acceleration_y": -0.459,
       "acceleration_z": 1.316
@@ -1669,14 +1669,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.825987",
+      "timestamp": "2025-03-09 16:55:58.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.825987",
+      "timestamp": "2025-03-09 16:55:58.601922",
       "acceleration_x": 0.478,
       "acceleration_y": -0.095,
       "acceleration_z": 1.024
@@ -1685,7 +1685,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:13.925987",
+      "timestamp": "2025-03-09 16:55:58.701922",
       "acceleration_x": 0.314,
       "acceleration_y": -0.368,
       "acceleration_z": 1.288
@@ -1694,7 +1694,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.025987",
+      "timestamp": "2025-03-09 16:55:58.801922",
       "acceleration_x": 0.082,
       "acceleration_y": -0.236,
       "acceleration_z": 1.375
@@ -1703,7 +1703,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.125987",
+      "timestamp": "2025-03-09 16:55:58.901922",
       "acceleration_x": 0.003,
       "acceleration_y": -0.041,
       "acceleration_z": 0.951
@@ -1712,7 +1712,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.225987",
+      "timestamp": "2025-03-09 16:55:59.001922",
       "acceleration_x": 0.268,
       "acceleration_y": -0.071,
       "acceleration_z": 0.958
@@ -1721,7 +1721,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.325987",
+      "timestamp": "2025-03-09 16:55:59.101922",
       "acceleration_x": 0.255,
       "acceleration_y": 0.112,
       "acceleration_z": 0.73
@@ -1730,7 +1730,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.425987",
+      "timestamp": "2025-03-09 16:55:59.201922",
       "acceleration_x": -0.296,
       "acceleration_y": -0.104,
       "acceleration_z": 1.074
@@ -1739,7 +1739,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.525987",
+      "timestamp": "2025-03-09 16:55:59.301922",
       "acceleration_x": -0.405,
       "acceleration_y": 0.182,
       "acceleration_z": 0.71
@@ -1748,7 +1748,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.625987",
+      "timestamp": "2025-03-09 16:55:59.401922",
       "acceleration_x": 0.039,
       "acceleration_y": 0.117,
       "acceleration_z": 0.909
@@ -1757,7 +1757,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.725987",
+      "timestamp": "2025-03-09 16:55:59.501922",
       "acceleration_x": -0.146,
       "acceleration_y": 0.45,
       "acceleration_z": 0.571
@@ -1766,14 +1766,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.825987",
+      "timestamp": "2025-03-09 16:55:59.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.825987",
+      "timestamp": "2025-03-09 16:55:59.601922",
       "acceleration_x": -0.373,
       "acceleration_y": 0.306,
       "acceleration_z": 0.845
@@ -1782,7 +1782,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:14.925987",
+      "timestamp": "2025-03-09 16:55:59.701922",
       "acceleration_x": -0.339,
       "acceleration_y": 0.336,
       "acceleration_z": 0.534
@@ -1791,7 +1791,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.025987",
+      "timestamp": "2025-03-09 16:55:59.801922",
       "acceleration_x": -0.434,
       "acceleration_y": 0.2,
       "acceleration_z": 0.593
@@ -1800,7 +1800,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.125987",
+      "timestamp": "2025-03-09 16:55:59.901922",
       "acceleration_x": -0.261,
       "acceleration_y": 0.181,
       "acceleration_z": 0.921
@@ -1809,7 +1809,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.225987",
+      "timestamp": "2025-03-09 16:56:00.001922",
       "acceleration_x": -0.676,
       "acceleration_y": 0.25,
       "acceleration_z": 1.32
@@ -1818,7 +1818,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.325987",
+      "timestamp": "2025-03-09 16:56:00.101922",
       "acceleration_x": -0.229,
       "acceleration_y": 0.095,
       "acceleration_z": 1.43
@@ -1827,7 +1827,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.425987",
+      "timestamp": "2025-03-09 16:56:00.201922",
       "acceleration_x": -0.31,
       "acceleration_y": -0.032,
       "acceleration_z": 1.366
@@ -1836,7 +1836,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.525987",
+      "timestamp": "2025-03-09 16:56:00.301922",
       "acceleration_x": -0.362,
       "acceleration_y": 0.058,
       "acceleration_z": 1.062
@@ -1845,7 +1845,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.625987",
+      "timestamp": "2025-03-09 16:56:00.401922",
       "acceleration_x": -0.471,
       "acceleration_y": -0.103,
       "acceleration_z": 1.047
@@ -1854,7 +1854,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.725987",
+      "timestamp": "2025-03-09 16:56:00.501922",
       "acceleration_x": -0.326,
       "acceleration_y": 0.024,
       "acceleration_z": 1.094
@@ -1863,14 +1863,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.825987",
+      "timestamp": "2025-03-09 16:56:00.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.825987",
+      "timestamp": "2025-03-09 16:56:00.601922",
       "acceleration_x": -0.639,
       "acceleration_y": -0.116,
       "acceleration_z": 0.924
@@ -1879,7 +1879,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:15.925987",
+      "timestamp": "2025-03-09 16:56:00.701922",
       "acceleration_x": -0.632,
       "acceleration_y": -0.133,
       "acceleration_z": 1.124
@@ -1888,7 +1888,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.025987",
+      "timestamp": "2025-03-09 16:56:00.801922",
       "acceleration_x": -0.279,
       "acceleration_y": -0.308,
       "acceleration_z": 1.04
@@ -1897,7 +1897,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.125987",
+      "timestamp": "2025-03-09 16:56:00.901922",
       "acceleration_x": -0.253,
       "acceleration_y": -0.303,
       "acceleration_z": 0.845
@@ -1906,7 +1906,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.225987",
+      "timestamp": "2025-03-09 16:56:01.001922",
       "acceleration_x": -0.59,
       "acceleration_y": -0.145,
       "acceleration_z": 0.683
@@ -1915,7 +1915,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.325987",
+      "timestamp": "2025-03-09 16:56:01.101922",
       "acceleration_x": -0.013,
       "acceleration_y": -0.449,
       "acceleration_z": 0.773
@@ -1924,7 +1924,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.425987",
+      "timestamp": "2025-03-09 16:56:01.201922",
       "acceleration_x": -0.27,
       "acceleration_y": -0.353,
       "acceleration_z": 0.938
@@ -1933,7 +1933,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.525987",
+      "timestamp": "2025-03-09 16:56:01.301922",
       "acceleration_x": -0.183,
       "acceleration_y": -0.186,
       "acceleration_z": 0.922
@@ -1942,7 +1942,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.625987",
+      "timestamp": "2025-03-09 16:56:01.401922",
       "acceleration_x": -0.269,
       "acceleration_y": -0.071,
       "acceleration_z": 0.861
@@ -1951,7 +1951,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.725987",
+      "timestamp": "2025-03-09 16:56:01.501922",
       "acceleration_x": -0.123,
       "acceleration_y": -0.119,
       "acceleration_z": 0.854
@@ -1960,14 +1960,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.825987",
+      "timestamp": "2025-03-09 16:56:01.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.825987",
+      "timestamp": "2025-03-09 16:56:01.601922",
       "acceleration_x": 0.018,
       "acceleration_y": 0.128,
       "acceleration_z": 1.756
@@ -1976,7 +1976,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:16.925987",
+      "timestamp": "2025-03-09 16:56:01.701922",
       "acceleration_x": -0.299,
       "acceleration_y": 0.049,
       "acceleration_z": 1.899
@@ -1985,7 +1985,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.025987",
+      "timestamp": "2025-03-09 16:56:01.801922",
       "acceleration_x": 0.39,
       "acceleration_y": -0.03,
       "acceleration_z": 2.019
@@ -1994,7 +1994,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.125987",
+      "timestamp": "2025-03-09 16:56:01.901922",
       "acceleration_x": 0.468,
       "acceleration_y": 0.302,
       "acceleration_z": 1.421
@@ -2003,7 +2003,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.225987",
+      "timestamp": "2025-03-09 16:56:02.001922",
       "acceleration_x": 0.19,
       "acceleration_y": 0.439,
       "acceleration_z": 1.442
@@ -2012,7 +2012,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.325987",
+      "timestamp": "2025-03-09 16:56:02.101922",
       "acceleration_x": 0.35,
       "acceleration_y": 0.362,
       "acceleration_z": 1.103
@@ -2021,7 +2021,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.425987",
+      "timestamp": "2025-03-09 16:56:02.201922",
       "acceleration_x": 0.53,
       "acceleration_y": 0.341,
       "acceleration_z": 1.428
@@ -2030,7 +2030,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.525987",
+      "timestamp": "2025-03-09 16:56:02.301922",
       "acceleration_x": 0.205,
       "acceleration_y": 0.224,
       "acceleration_z": 1.029
@@ -2039,7 +2039,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.625987",
+      "timestamp": "2025-03-09 16:56:02.401922",
       "acceleration_x": 0.487,
       "acceleration_y": 0.236,
       "acceleration_z": 0.761
@@ -2048,7 +2048,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.725987",
+      "timestamp": "2025-03-09 16:56:02.501922",
       "acceleration_x": 0.568,
       "acceleration_y": 0.157,
       "acceleration_z": 0.779
@@ -2057,14 +2057,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.825987",
+      "timestamp": "2025-03-09 16:56:02.601922",
       "heart_rate": 63
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.825987",
+      "timestamp": "2025-03-09 16:56:02.601922",
       "acceleration_x": 0.565,
       "acceleration_y": 0.074,
       "acceleration_z": 0.709
@@ -2073,7 +2073,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:17.925987",
+      "timestamp": "2025-03-09 16:56:02.701922",
       "acceleration_x": 0.364,
       "acceleration_y": -0.074,
       "acceleration_z": 0.83
@@ -2082,7 +2082,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.025987",
+      "timestamp": "2025-03-09 16:56:02.801922",
       "acceleration_x": 0.671,
       "acceleration_y": -0.102,
       "acceleration_z": 0.988
@@ -2091,7 +2091,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.125987",
+      "timestamp": "2025-03-09 16:56:02.901922",
       "acceleration_x": 0.292,
       "acceleration_y": -0.094,
       "acceleration_z": 0.979
@@ -2100,7 +2100,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.225987",
+      "timestamp": "2025-03-09 16:56:03.001922",
       "acceleration_x": 0.361,
       "acceleration_y": -0.034,
       "acceleration_z": 0.777
@@ -2109,7 +2109,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.325987",
+      "timestamp": "2025-03-09 16:56:03.101922",
       "acceleration_x": 0.659,
       "acceleration_y": -0.265,
       "acceleration_z": 0.698
@@ -2118,7 +2118,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.425987",
+      "timestamp": "2025-03-09 16:56:03.201922",
       "acceleration_x": 0.349,
       "acceleration_y": -0.299,
       "acceleration_z": 0.773
@@ -2127,7 +2127,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.525987",
+      "timestamp": "2025-03-09 16:56:03.301922",
       "acceleration_x": 0.148,
       "acceleration_y": -0.105,
       "acceleration_z": 1.279
@@ -2136,7 +2136,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.625987",
+      "timestamp": "2025-03-09 16:56:03.401922",
       "acceleration_x": 0.265,
       "acceleration_y": -0.472,
       "acceleration_z": 0.992
@@ -2145,7 +2145,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.725987",
+      "timestamp": "2025-03-09 16:56:03.501922",
       "acceleration_x": 0.415,
       "acceleration_y": -0.416,
       "acceleration_z": 1.143
@@ -2154,14 +2154,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.825987",
+      "timestamp": "2025-03-09 16:56:03.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.825987",
+      "timestamp": "2025-03-09 16:56:03.601922",
       "acceleration_x": 0.369,
       "acceleration_y": -0.25,
       "acceleration_z": 1.297
@@ -2170,7 +2170,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:18.925987",
+      "timestamp": "2025-03-09 16:56:03.701922",
       "acceleration_x": -0.01,
       "acceleration_y": -0.146,
       "acceleration_z": 1.391
@@ -2179,7 +2179,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.025987",
+      "timestamp": "2025-03-09 16:56:03.801922",
       "acceleration_x": 0.001,
       "acceleration_y": -0.047,
       "acceleration_z": 1.277
@@ -2188,7 +2188,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.125987",
+      "timestamp": "2025-03-09 16:56:03.901922",
       "acceleration_x": -0.076,
       "acceleration_y": -0.012,
       "acceleration_z": 1.433
@@ -2197,7 +2197,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.225987",
+      "timestamp": "2025-03-09 16:56:04.001922",
       "acceleration_x": 0.326,
       "acceleration_y": -0.268,
       "acceleration_z": 1.042
@@ -2206,7 +2206,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.325987",
+      "timestamp": "2025-03-09 16:56:04.101922",
       "acceleration_x": 0.208,
       "acceleration_y": 0.042,
       "acceleration_z": 1.054
@@ -2215,7 +2215,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.425987",
+      "timestamp": "2025-03-09 16:56:04.201922",
       "acceleration_x": -0.115,
       "acceleration_y": 0.049,
       "acceleration_z": 0.908
@@ -2224,7 +2224,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.525987",
+      "timestamp": "2025-03-09 16:56:04.301922",
       "acceleration_x": -0.321,
       "acceleration_y": 0.18,
       "acceleration_z": 0.614
@@ -2233,7 +2233,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.625987",
+      "timestamp": "2025-03-09 16:56:04.401922",
       "acceleration_x": -0.371,
       "acceleration_y": 0.233,
       "acceleration_z": 1.021
@@ -2242,7 +2242,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.725987",
+      "timestamp": "2025-03-09 16:56:04.501922",
       "acceleration_x": -0.523,
       "acceleration_y": 0.113,
       "acceleration_z": 0.934
@@ -2251,14 +2251,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.825987",
+      "timestamp": "2025-03-09 16:56:04.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.825987",
+      "timestamp": "2025-03-09 16:56:04.601922",
       "acceleration_x": -0.37,
       "acceleration_y": 0.418,
       "acceleration_z": 0.912
@@ -2267,7 +2267,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:19.925987",
+      "timestamp": "2025-03-09 16:56:04.701922",
       "acceleration_x": -0.56,
       "acceleration_y": 0.461,
       "acceleration_z": 0.982
@@ -2276,7 +2276,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.025987",
+      "timestamp": "2025-03-09 16:56:04.801922",
       "acceleration_x": -0.363,
       "acceleration_y": 0.353,
       "acceleration_z": 0.673
@@ -2285,7 +2285,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.125987",
+      "timestamp": "2025-03-09 16:56:04.901922",
       "acceleration_x": -0.554,
       "acceleration_y": 0.471,
       "acceleration_z": 0.746
@@ -2294,7 +2294,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.225987",
+      "timestamp": "2025-03-09 16:56:05.001922",
       "acceleration_x": -0.242,
       "acceleration_y": 0.097,
       "acceleration_z": 1.228
@@ -2303,7 +2303,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.325987",
+      "timestamp": "2025-03-09 16:56:05.101922",
       "acceleration_x": -0.483,
       "acceleration_y": 0.105,
       "acceleration_z": 1.274
@@ -2312,7 +2312,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.425987",
+      "timestamp": "2025-03-09 16:56:05.201922",
       "acceleration_x": -0.482,
       "acceleration_y": -0.02,
       "acceleration_z": 1.245
@@ -2321,7 +2321,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.525987",
+      "timestamp": "2025-03-09 16:56:05.301922",
       "acceleration_x": -0.564,
       "acceleration_y": 0.148,
       "acceleration_z": 1.288
@@ -2330,7 +2330,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.625987",
+      "timestamp": "2025-03-09 16:56:05.401922",
       "acceleration_x": -0.311,
       "acceleration_y": -0.07,
       "acceleration_z": 1.279
@@ -2339,7 +2339,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.725987",
+      "timestamp": "2025-03-09 16:56:05.501922",
       "acceleration_x": -0.4,
       "acceleration_y": -0.237,
       "acceleration_z": 1.181
@@ -2348,14 +2348,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.825987",
+      "timestamp": "2025-03-09 16:56:05.601922",
       "heart_rate": 61
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.825987",
+      "timestamp": "2025-03-09 16:56:05.601922",
       "acceleration_x": -0.338,
       "acceleration_y": -0.216,
       "acceleration_z": 0.925
@@ -2364,7 +2364,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:20.925987",
+      "timestamp": "2025-03-09 16:56:05.701922",
       "acceleration_x": -0.609,
       "acceleration_y": -0.235,
       "acceleration_z": 1.312
@@ -2373,7 +2373,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.025987",
+      "timestamp": "2025-03-09 16:56:05.801922",
       "acceleration_x": -0.341,
       "acceleration_y": -0.336,
       "acceleration_z": 1.097
@@ -2382,7 +2382,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.125987",
+      "timestamp": "2025-03-09 16:56:05.901922",
       "acceleration_x": -0.592,
       "acceleration_y": -0.458,
       "acceleration_z": 1.018
@@ -2391,7 +2391,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.225987",
+      "timestamp": "2025-03-09 16:56:06.001922",
       "acceleration_x": -0.412,
       "acceleration_y": -0.403,
       "acceleration_z": 1.029
@@ -2400,7 +2400,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.325987",
+      "timestamp": "2025-03-09 16:56:06.101922",
       "acceleration_x": -0.568,
       "acceleration_y": -0.141,
       "acceleration_z": 0.726
@@ -2409,7 +2409,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.425987",
+      "timestamp": "2025-03-09 16:56:06.201922",
       "acceleration_x": -0.016,
       "acceleration_y": -0.26,
       "acceleration_z": 0.883
@@ -2418,7 +2418,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.525987",
+      "timestamp": "2025-03-09 16:56:06.301922",
       "acceleration_x": -0.175,
       "acceleration_y": -0.031,
       "acceleration_z": 0.712
@@ -2427,7 +2427,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.625987",
+      "timestamp": "2025-03-09 16:56:06.401922",
       "acceleration_x": -0.207,
       "acceleration_y": -0.246,
       "acceleration_z": 0.667
@@ -2436,7 +2436,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.725987",
+      "timestamp": "2025-03-09 16:56:06.501922",
       "acceleration_x": 0.01,
       "acceleration_y": -0.106,
       "acceleration_z": 1.184
@@ -2445,14 +2445,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.825987",
+      "timestamp": "2025-03-09 16:56:06.601922",
       "heart_rate": 66
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.825987",
+      "timestamp": "2025-03-09 16:56:06.601922",
       "acceleration_x": -0.037,
       "acceleration_y": -0.087,
       "acceleration_z": 1.087
@@ -2461,7 +2461,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:21.925987",
+      "timestamp": "2025-03-09 16:56:06.701922",
       "acceleration_x": 0.226,
       "acceleration_y": 0.247,
       "acceleration_z": 1.221
@@ -2470,7 +2470,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.025987",
+      "timestamp": "2025-03-09 16:56:06.801922",
       "acceleration_x": 0.015,
       "acceleration_y": -0.04,
       "acceleration_z": 1.292
@@ -2479,7 +2479,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.125987",
+      "timestamp": "2025-03-09 16:56:06.901922",
       "acceleration_x": 0.015,
       "acceleration_y": 0.365,
       "acceleration_z": 1.221
@@ -2488,7 +2488,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.225987",
+      "timestamp": "2025-03-09 16:56:07.001922",
       "acceleration_x": -0.042,
       "acceleration_y": 0.154,
       "acceleration_z": 1.23
@@ -2497,7 +2497,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.325987",
+      "timestamp": "2025-03-09 16:56:07.101922",
       "acceleration_x": 0.546,
       "acceleration_y": 0.373,
       "acceleration_z": 1.464
@@ -2506,7 +2506,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.425987",
+      "timestamp": "2025-03-09 16:56:07.201922",
       "acceleration_x": 0.312,
       "acceleration_y": 0.254,
       "acceleration_z": 0.955
@@ -2515,7 +2515,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.525987",
+      "timestamp": "2025-03-09 16:56:07.301922",
       "acceleration_x": 0.653,
       "acceleration_y": 0.374,
       "acceleration_z": 0.967
@@ -2524,7 +2524,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.625987",
+      "timestamp": "2025-03-09 16:56:07.401922",
       "acceleration_x": 0.426,
       "acceleration_y": 0.303,
       "acceleration_z": 1.114
@@ -2533,7 +2533,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.725987",
+      "timestamp": "2025-03-09 16:56:07.501922",
       "acceleration_x": 0.251,
       "acceleration_y": 0.232,
       "acceleration_z": 1.057
@@ -2542,14 +2542,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.825987",
+      "timestamp": "2025-03-09 16:56:07.601922",
       "heart_rate": 62
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.825987",
+      "timestamp": "2025-03-09 16:56:07.601922",
       "acceleration_x": 0.599,
       "acceleration_y": 0.086,
       "acceleration_z": 0.791
@@ -2558,7 +2558,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:22.925987",
+      "timestamp": "2025-03-09 16:56:07.701922",
       "acceleration_x": 0.281,
       "acceleration_y": 0.251,
       "acceleration_z": 0.524
@@ -2567,7 +2567,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.025987",
+      "timestamp": "2025-03-09 16:56:07.801922",
       "acceleration_x": 0.289,
       "acceleration_y": 0.117,
       "acceleration_z": 0.571
@@ -2576,7 +2576,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.125987",
+      "timestamp": "2025-03-09 16:56:07.901922",
       "acceleration_x": 0.283,
       "acceleration_y": -0.204,
       "acceleration_z": 0.619
@@ -2585,7 +2585,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.225987",
+      "timestamp": "2025-03-09 16:56:08.001922",
       "acceleration_x": 0.262,
       "acceleration_y": 0.042,
       "acceleration_z": 0.572
@@ -2594,7 +2594,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.325987",
+      "timestamp": "2025-03-09 16:56:08.101922",
       "acceleration_x": 0.672,
       "acceleration_y": -0.241,
       "acceleration_z": 0.976
@@ -2603,7 +2603,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.425987",
+      "timestamp": "2025-03-09 16:56:08.201922",
       "acceleration_x": 0.311,
       "acceleration_y": -0.084,
       "acceleration_z": 0.682
@@ -2612,7 +2612,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.525987",
+      "timestamp": "2025-03-09 16:56:08.301922",
       "acceleration_x": 0.197,
       "acceleration_y": -0.432,
       "acceleration_z": 1.29
@@ -2621,7 +2621,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.625987",
+      "timestamp": "2025-03-09 16:56:08.401922",
       "acceleration_x": 0.187,
       "acceleration_y": -0.421,
       "acceleration_z": 1.417
@@ -2630,7 +2630,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.725987",
+      "timestamp": "2025-03-09 16:56:08.501922",
       "acceleration_x": 0.051,
       "acceleration_y": -0.407,
       "acceleration_z": 0.998
@@ -2639,14 +2639,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.825987",
+      "timestamp": "2025-03-09 16:56:08.601922",
       "heart_rate": 62
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.825987",
+      "timestamp": "2025-03-09 16:56:08.601922",
       "acceleration_x": 0.183,
       "acceleration_y": -0.141,
       "acceleration_z": 1.276
@@ -2655,7 +2655,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:23.925987",
+      "timestamp": "2025-03-09 16:56:08.701922",
       "acceleration_x": 0.275,
       "acceleration_y": -0.439,
       "acceleration_z": 1.314
@@ -2664,7 +2664,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.025987",
+      "timestamp": "2025-03-09 16:56:08.801922",
       "acceleration_x": -0.049,
       "acceleration_y": -0.172,
       "acceleration_z": 1.429
@@ -2673,7 +2673,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.125987",
+      "timestamp": "2025-03-09 16:56:08.901922",
       "acceleration_x": -0.013,
       "acceleration_y": -0.243,
       "acceleration_z": 1.47
@@ -2682,7 +2682,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.225987",
+      "timestamp": "2025-03-09 16:56:09.001922",
       "acceleration_x": 0.155,
       "acceleration_y": 0.007,
       "acceleration_z": 0.984
@@ -2691,7 +2691,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.325987",
+      "timestamp": "2025-03-09 16:56:09.101922",
       "acceleration_x": -0.098,
       "acceleration_y": 0.178,
       "acceleration_z": 0.88
@@ -2700,7 +2700,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.425987",
+      "timestamp": "2025-03-09 16:56:09.201922",
       "acceleration_x": 0.016,
       "acceleration_y": -0.08,
       "acceleration_z": 1.027
@@ -2709,7 +2709,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.525987",
+      "timestamp": "2025-03-09 16:56:09.301922",
       "acceleration_x": -0.11,
       "acceleration_y": -0.002,
       "acceleration_z": 0.945
@@ -2718,7 +2718,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.625987",
+      "timestamp": "2025-03-09 16:56:09.401922",
       "acceleration_x": -0.029,
       "acceleration_y": 0.287,
       "acceleration_z": 0.439
@@ -2727,7 +2727,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.725987",
+      "timestamp": "2025-03-09 16:56:09.501922",
       "acceleration_x": -0.216,
       "acceleration_y": 0.448,
       "acceleration_z": 0.745
@@ -2736,14 +2736,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.825987",
+      "timestamp": "2025-03-09 16:56:09.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.825987",
+      "timestamp": "2025-03-09 16:56:09.601922",
       "acceleration_x": -0.065,
       "acceleration_y": 0.212,
       "acceleration_z": 0.655
@@ -2752,7 +2752,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:24.925987",
+      "timestamp": "2025-03-09 16:56:09.701922",
       "acceleration_x": -0.416,
       "acceleration_y": 0.125,
       "acceleration_z": 0.709
@@ -2761,7 +2761,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.025987",
+      "timestamp": "2025-03-09 16:56:09.801922",
       "acceleration_x": -0.415,
       "acceleration_y": 0.237,
       "acceleration_z": 0.862
@@ -2770,7 +2770,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.125987",
+      "timestamp": "2025-03-09 16:56:09.901922",
       "acceleration_x": -0.536,
       "acceleration_y": 0.32,
       "acceleration_z": 1.009
@@ -2779,7 +2779,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.225987",
+      "timestamp": "2025-03-09 16:56:10.001922",
       "acceleration_x": -0.428,
       "acceleration_y": 0.297,
       "acceleration_z": 0.983
@@ -2788,7 +2788,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.325987",
+      "timestamp": "2025-03-09 16:56:10.101922",
       "acceleration_x": -0.414,
       "acceleration_y": 0.295,
       "acceleration_z": 1.374
@@ -2797,7 +2797,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.425987",
+      "timestamp": "2025-03-09 16:56:10.201922",
       "acceleration_x": -0.686,
       "acceleration_y": 0.194,
       "acceleration_z": 1.489
@@ -2806,7 +2806,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.525987",
+      "timestamp": "2025-03-09 16:56:10.301922",
       "acceleration_x": -0.436,
       "acceleration_y": 0.145,
       "acceleration_z": 1.571
@@ -2815,7 +2815,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.625987",
+      "timestamp": "2025-03-09 16:56:10.401922",
       "acceleration_x": -0.674,
       "acceleration_y": 0.152,
       "acceleration_z": 1.574
@@ -2824,7 +2824,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.725987",
+      "timestamp": "2025-03-09 16:56:10.501922",
       "acceleration_x": -0.557,
       "acceleration_y": -0.03,
       "acceleration_z": 1.416
@@ -2833,14 +2833,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.825987",
+      "timestamp": "2025-03-09 16:56:10.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.825987",
+      "timestamp": "2025-03-09 16:56:10.601922",
       "acceleration_x": -0.351,
       "acceleration_y": -0.172,
       "acceleration_z": 1.365
@@ -2849,7 +2849,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:25.925987",
+      "timestamp": "2025-03-09 16:56:10.701922",
       "acceleration_x": -0.556,
       "acceleration_y": -0.257,
       "acceleration_z": 0.796
@@ -2858,7 +2858,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.025987",
+      "timestamp": "2025-03-09 16:56:10.801922",
       "acceleration_x": -0.338,
       "acceleration_y": -0.393,
       "acceleration_z": 0.963
@@ -2867,7 +2867,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.125987",
+      "timestamp": "2025-03-09 16:56:10.901922",
       "acceleration_x": -0.621,
       "acceleration_y": -0.222,
       "acceleration_z": 0.734
@@ -2876,7 +2876,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.225987",
+      "timestamp": "2025-03-09 16:56:11.001922",
       "acceleration_x": -0.296,
       "acceleration_y": -0.249,
       "acceleration_z": 1.006
@@ -2885,7 +2885,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.325987",
+      "timestamp": "2025-03-09 16:56:11.101922",
       "acceleration_x": -0.185,
       "acceleration_y": -0.469,
       "acceleration_z": 0.487
@@ -2894,7 +2894,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.425987",
+      "timestamp": "2025-03-09 16:56:11.201922",
       "acceleration_x": -0.099,
       "acceleration_y": -0.319,
       "acceleration_z": 0.608
@@ -2903,7 +2903,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.525987",
+      "timestamp": "2025-03-09 16:56:11.301922",
       "acceleration_x": -0.35,
       "acceleration_y": -0.167,
       "acceleration_z": 0.944
@@ -2912,7 +2912,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.625987",
+      "timestamp": "2025-03-09 16:56:11.401922",
       "acceleration_x": -0.306,
       "acceleration_y": -0.235,
       "acceleration_z": 0.574
@@ -2921,7 +2921,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.725987",
+      "timestamp": "2025-03-09 16:56:11.501922",
       "acceleration_x": 0.034,
       "acceleration_y": 0.074,
       "acceleration_z": 0.989
@@ -2930,14 +2930,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.825987",
+      "timestamp": "2025-03-09 16:56:11.601922",
       "heart_rate": 61
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.825987",
+      "timestamp": "2025-03-09 16:56:11.601922",
       "acceleration_x": -0.069,
       "acceleration_y": -0.178,
       "acceleration_z": 1.312
@@ -2946,7 +2946,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:26.925987",
+      "timestamp": "2025-03-09 16:56:11.701922",
       "acceleration_x": 0.432,
       "acceleration_y": -0.131,
       "acceleration_z": 2.006
@@ -2955,7 +2955,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.025987",
+      "timestamp": "2025-03-09 16:56:11.801922",
       "acceleration_x": 0.08,
       "acceleration_y": -0.007,
       "acceleration_z": 2.208
@@ -2964,7 +2964,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.125987",
+      "timestamp": "2025-03-09 16:56:11.901922",
       "acceleration_x": 0.193,
       "acceleration_y": 0.336,
       "acceleration_z": 1.165
@@ -2973,7 +2973,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.225987",
+      "timestamp": "2025-03-09 16:56:12.001922",
       "acceleration_x": 0.065,
       "acceleration_y": 0.326,
       "acceleration_z": 1.065
@@ -2982,7 +2982,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.325987",
+      "timestamp": "2025-03-09 16:56:12.101922",
       "acceleration_x": 0.343,
       "acceleration_y": 0.116,
       "acceleration_z": 1.12
@@ -2991,7 +2991,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.425987",
+      "timestamp": "2025-03-09 16:56:12.201922",
       "acceleration_x": 0.163,
       "acceleration_y": 0.482,
       "acceleration_z": 1.003
@@ -3000,7 +3000,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.525987",
+      "timestamp": "2025-03-09 16:56:12.301922",
       "acceleration_x": 0.312,
       "acceleration_y": 0.425,
       "acceleration_z": 1.03
@@ -3009,7 +3009,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.625987",
+      "timestamp": "2025-03-09 16:56:12.401922",
       "acceleration_x": 0.681,
       "acceleration_y": 0.087,
       "acceleration_z": 0.919
@@ -3018,7 +3018,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.725987",
+      "timestamp": "2025-03-09 16:56:12.501922",
       "acceleration_x": 0.39,
       "acceleration_y": 0.085,
       "acceleration_z": 0.968
@@ -3027,14 +3027,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.825987",
+      "timestamp": "2025-03-09 16:56:12.601922",
       "heart_rate": 62
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.825987",
+      "timestamp": "2025-03-09 16:56:12.601922",
       "acceleration_x": 0.606,
       "acceleration_y": 0.199,
       "acceleration_z": 0.695
@@ -3043,7 +3043,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:27.925987",
+      "timestamp": "2025-03-09 16:56:12.701922",
       "acceleration_x": 0.644,
       "acceleration_y": 0.143,
       "acceleration_z": 0.682
@@ -3052,7 +3052,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.025987",
+      "timestamp": "2025-03-09 16:56:12.801922",
       "acceleration_x": 0.78,
       "acceleration_y": 0.126,
       "acceleration_z": 0.73
@@ -3061,7 +3061,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.125987",
+      "timestamp": "2025-03-09 16:56:12.901922",
       "acceleration_x": 0.744,
       "acceleration_y": 0.102,
       "acceleration_z": 0.644
@@ -3070,7 +3070,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.225987",
+      "timestamp": "2025-03-09 16:56:13.001922",
       "acceleration_x": 0.434,
       "acceleration_y": -0.228,
       "acceleration_z": 0.995
@@ -3079,7 +3079,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.325987",
+      "timestamp": "2025-03-09 16:56:13.101922",
       "acceleration_x": 0.534,
       "acceleration_y": -0.133,
       "acceleration_z": 0.547
@@ -3088,7 +3088,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.425987",
+      "timestamp": "2025-03-09 16:56:13.201922",
       "acceleration_x": 0.262,
       "acceleration_y": -0.378,
       "acceleration_z": 1.206
@@ -3097,7 +3097,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.525987",
+      "timestamp": "2025-03-09 16:56:13.301922",
       "acceleration_x": 0.496,
       "acceleration_y": -0.285,
       "acceleration_z": 0.824
@@ -3106,7 +3106,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.625987",
+      "timestamp": "2025-03-09 16:56:13.401922",
       "acceleration_x": 0.671,
       "acceleration_y": -0.316,
       "acceleration_z": 0.925
@@ -3115,7 +3115,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.725987",
+      "timestamp": "2025-03-09 16:56:13.501922",
       "acceleration_x": 0.568,
       "acceleration_y": -0.108,
       "acceleration_z": 1.448
@@ -3124,14 +3124,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.825987",
+      "timestamp": "2025-03-09 16:56:13.601922",
       "heart_rate": 62
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.825987",
+      "timestamp": "2025-03-09 16:56:13.601922",
       "acceleration_x": 0.226,
       "acceleration_y": -0.317,
       "acceleration_z": 1.073
@@ -3140,7 +3140,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:28.925987",
+      "timestamp": "2025-03-09 16:56:13.701922",
       "acceleration_x": 0.318,
       "acceleration_y": -0.327,
       "acceleration_z": 1.522
@@ -3149,7 +3149,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.025987",
+      "timestamp": "2025-03-09 16:56:13.801922",
       "acceleration_x": 0.039,
       "acceleration_y": -0.293,
       "acceleration_z": 1.232
@@ -3158,7 +3158,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.125987",
+      "timestamp": "2025-03-09 16:56:13.901922",
       "acceleration_x": 0.312,
       "acceleration_y": 0.023,
       "acceleration_z": 1.263
@@ -3167,7 +3167,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.225987",
+      "timestamp": "2025-03-09 16:56:14.001922",
       "acceleration_x": -0.026,
       "acceleration_y": -0.083,
       "acceleration_z": 1.167
@@ -3176,7 +3176,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.325987",
+      "timestamp": "2025-03-09 16:56:14.101922",
       "acceleration_x": -0.186,
       "acceleration_y": -0.085,
       "acceleration_z": 1.036
@@ -3185,7 +3185,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.425987",
+      "timestamp": "2025-03-09 16:56:14.201922",
       "acceleration_x": -0.062,
       "acceleration_y": -0.055,
       "acceleration_z": 1.068
@@ -3194,7 +3194,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.525987",
+      "timestamp": "2025-03-09 16:56:14.301922",
       "acceleration_x": 0.148,
       "acceleration_y": 0.023,
       "acceleration_z": 0.753
@@ -3203,7 +3203,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.625987",
+      "timestamp": "2025-03-09 16:56:14.401922",
       "acceleration_x": -0.047,
       "acceleration_y": 0.086,
       "acceleration_z": 0.862
@@ -3212,7 +3212,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.725987",
+      "timestamp": "2025-03-09 16:56:14.501922",
       "acceleration_x": -0.013,
       "acceleration_y": 0.148,
       "acceleration_z": 0.915
@@ -3221,14 +3221,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.825987",
+      "timestamp": "2025-03-09 16:56:14.601922",
       "heart_rate": 64
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.825987",
+      "timestamp": "2025-03-09 16:56:14.601922",
       "acceleration_x": -0.393,
       "acceleration_y": 0.202,
       "acceleration_z": 0.926
@@ -3237,7 +3237,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:29.925987",
+      "timestamp": "2025-03-09 16:56:14.701922",
       "acceleration_x": -0.545,
       "acceleration_y": 0.332,
       "acceleration_z": 0.817
@@ -3246,7 +3246,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.025987",
+      "timestamp": "2025-03-09 16:56:14.801922",
       "acceleration_x": -0.143,
       "acceleration_y": 0.209,
       "acceleration_z": 0.822
@@ -3255,7 +3255,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.125987",
+      "timestamp": "2025-03-09 16:56:14.901922",
       "acceleration_x": -0.514,
       "acceleration_y": 0.324,
       "acceleration_z": 1.162
@@ -3264,7 +3264,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.225987",
+      "timestamp": "2025-03-09 16:56:15.001922",
       "acceleration_x": -0.497,
       "acceleration_y": 0.272,
       "acceleration_z": 1.359
@@ -3273,7 +3273,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.325987",
+      "timestamp": "2025-03-09 16:56:15.101922",
       "acceleration_x": -0.242,
       "acceleration_y": 0.035,
       "acceleration_z": 1.132
@@ -3282,7 +3282,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.425987",
+      "timestamp": "2025-03-09 16:56:15.201922",
       "acceleration_x": -0.664,
       "acceleration_y": 0.28,
       "acceleration_z": 1.014
@@ -3291,7 +3291,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.525987",
+      "timestamp": "2025-03-09 16:56:15.301922",
       "acceleration_x": -0.214,
       "acceleration_y": -0.127,
       "acceleration_z": 1.197
@@ -3300,7 +3300,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.625987",
+      "timestamp": "2025-03-09 16:56:15.401922",
       "acceleration_x": -0.295,
       "acceleration_y": -0.202,
       "acceleration_z": 1.142
@@ -3309,7 +3309,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.725987",
+      "timestamp": "2025-03-09 16:56:15.501922",
       "acceleration_x": -0.331,
       "acceleration_y": -0.196,
       "acceleration_z": 1.249
@@ -3318,14 +3318,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.825987",
+      "timestamp": "2025-03-09 16:56:15.601922",
       "heart_rate": 63
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.825987",
+      "timestamp": "2025-03-09 16:56:15.601922",
       "acceleration_x": -0.53,
       "acceleration_y": -0.258,
       "acceleration_z": 1.024
@@ -3334,7 +3334,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:30.925987",
+      "timestamp": "2025-03-09 16:56:15.701922",
       "acceleration_x": -0.477,
       "acceleration_y": -0.178,
       "acceleration_z": 0.813
@@ -3343,7 +3343,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.025987",
+      "timestamp": "2025-03-09 16:56:15.801922",
       "acceleration_x": -0.703,
       "acceleration_y": -0.298,
       "acceleration_z": 1.129
@@ -3352,7 +3352,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.125987",
+      "timestamp": "2025-03-09 16:56:15.901922",
       "acceleration_x": -0.683,
       "acceleration_y": -0.358,
       "acceleration_z": 0.865
@@ -3361,7 +3361,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.225987",
+      "timestamp": "2025-03-09 16:56:16.001922",
       "acceleration_x": -0.607,
       "acceleration_y": -0.413,
       "acceleration_z": 0.5
@@ -3370,7 +3370,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.325987",
+      "timestamp": "2025-03-09 16:56:16.101922",
       "acceleration_x": -0.129,
       "acceleration_y": -0.152,
       "acceleration_z": 0.559
@@ -3379,7 +3379,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.425987",
+      "timestamp": "2025-03-09 16:56:16.201922",
       "acceleration_x": -0.464,
       "acceleration_y": -0.402,
       "acceleration_z": 0.882
@@ -3388,7 +3388,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.525987",
+      "timestamp": "2025-03-09 16:56:16.301922",
       "acceleration_x": -0.364,
       "acceleration_y": -0.158,
       "acceleration_z": 0.55
@@ -3397,7 +3397,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.625987",
+      "timestamp": "2025-03-09 16:56:16.401922",
       "acceleration_x": -0.391,
       "acceleration_y": -0.331,
       "acceleration_z": 0.673
@@ -3406,7 +3406,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.725987",
+      "timestamp": "2025-03-09 16:56:16.501922",
       "acceleration_x": -0.139,
       "acceleration_y": -0.044,
       "acceleration_z": 1.084
@@ -3415,14 +3415,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.825987",
+      "timestamp": "2025-03-09 16:56:16.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.825987",
+      "timestamp": "2025-03-09 16:56:16.601922",
       "acceleration_x": 0.091,
       "acceleration_y": 0.129,
       "acceleration_z": 1.219
@@ -3431,7 +3431,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:31.925987",
+      "timestamp": "2025-03-09 16:56:16.701922",
       "acceleration_x": 0.152,
       "acceleration_y": 0.19,
       "acceleration_z": 1.281
@@ -3440,7 +3440,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.025987",
+      "timestamp": "2025-03-09 16:56:16.801922",
       "acceleration_x": -0.167,
       "acceleration_y": 0.132,
       "acceleration_z": 1.198
@@ -3449,7 +3449,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.125987",
+      "timestamp": "2025-03-09 16:56:16.901922",
       "acceleration_x": 0.215,
       "acceleration_y": 0.089,
       "acceleration_z": 1.007
@@ -3458,7 +3458,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.225987",
+      "timestamp": "2025-03-09 16:56:17.001922",
       "acceleration_x": 0.114,
       "acceleration_y": 0.432,
       "acceleration_z": 1.58
@@ -3467,7 +3467,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.325987",
+      "timestamp": "2025-03-09 16:56:17.101922",
       "acceleration_x": 0.328,
       "acceleration_y": 0.428,
       "acceleration_z": 1.329
@@ -3476,7 +3476,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.425987",
+      "timestamp": "2025-03-09 16:56:17.201922",
       "acceleration_x": 0.28,
       "acceleration_y": 0.113,
       "acceleration_z": 1.262
@@ -3485,7 +3485,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.525987",
+      "timestamp": "2025-03-09 16:56:17.301922",
       "acceleration_x": 0.676,
       "acceleration_y": 0.316,
       "acceleration_z": 1.256
@@ -3494,7 +3494,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.625987",
+      "timestamp": "2025-03-09 16:56:17.401922",
       "acceleration_x": 0.367,
       "acceleration_y": 0.409,
       "acceleration_z": 1.302
@@ -3503,7 +3503,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.725987",
+      "timestamp": "2025-03-09 16:56:17.501922",
       "acceleration_x": 0.415,
       "acceleration_y": 0.32,
       "acceleration_z": 1.138
@@ -3512,14 +3512,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.825987",
+      "timestamp": "2025-03-09 16:56:17.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.825987",
+      "timestamp": "2025-03-09 16:56:17.601922",
       "acceleration_x": 0.309,
       "acceleration_y": 0.086,
       "acceleration_z": 1.047
@@ -3528,7 +3528,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:32.925987",
+      "timestamp": "2025-03-09 16:56:17.701922",
       "acceleration_x": 0.723,
       "acceleration_y": 0.086,
       "acceleration_z": 0.581
@@ -3537,7 +3537,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.025987",
+      "timestamp": "2025-03-09 16:56:17.801922",
       "acceleration_x": 0.262,
       "acceleration_y": 0.188,
       "acceleration_z": 0.441
@@ -3546,7 +3546,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.125987",
+      "timestamp": "2025-03-09 16:56:17.901922",
       "acceleration_x": 0.349,
       "acceleration_y": -0.036,
       "acceleration_z": 0.787
@@ -3555,7 +3555,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.225987",
+      "timestamp": "2025-03-09 16:56:18.001922",
       "acceleration_x": 0.732,
       "acceleration_y": -0.168,
       "acceleration_z": 1.022
@@ -3564,7 +3564,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.325987",
+      "timestamp": "2025-03-09 16:56:18.101922",
       "acceleration_x": 0.58,
       "acceleration_y": -0.078,
       "acceleration_z": 0.845
@@ -3573,7 +3573,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.425987",
+      "timestamp": "2025-03-09 16:56:18.201922",
       "acceleration_x": 0.601,
       "acceleration_y": -0.407,
       "acceleration_z": 0.882
@@ -3582,7 +3582,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.525987",
+      "timestamp": "2025-03-09 16:56:18.301922",
       "acceleration_x": 0.58,
       "acceleration_y": -0.331,
       "acceleration_z": 0.772
@@ -3591,7 +3591,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.625987",
+      "timestamp": "2025-03-09 16:56:18.401922",
       "acceleration_x": 0.512,
       "acceleration_y": -0.208,
       "acceleration_z": 0.876
@@ -3600,7 +3600,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.725987",
+      "timestamp": "2025-03-09 16:56:18.501922",
       "acceleration_x": 0.556,
       "acceleration_y": -0.443,
       "acceleration_z": 1.503
@@ -3609,14 +3609,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.825987",
+      "timestamp": "2025-03-09 16:56:18.601922",
       "heart_rate": 60
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.825987",
+      "timestamp": "2025-03-09 16:56:18.601922",
       "acceleration_x": 0.125,
       "acceleration_y": -0.299,
       "acceleration_z": 1.388
@@ -3625,7 +3625,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:33.925987",
+      "timestamp": "2025-03-09 16:56:18.701922",
       "acceleration_x": 0.155,
       "acceleration_y": -0.336,
       "acceleration_z": 1.072
@@ -3634,7 +3634,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.025987",
+      "timestamp": "2025-03-09 16:56:18.801922",
       "acceleration_x": 0.115,
       "acceleration_y": -0.263,
       "acceleration_z": 0.995
@@ -3643,7 +3643,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.125987",
+      "timestamp": "2025-03-09 16:56:18.901922",
       "acceleration_x": -0.015,
       "acceleration_y": -0.048,
       "acceleration_z": 1.192
@@ -3652,7 +3652,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.225987",
+      "timestamp": "2025-03-09 16:56:19.001922",
       "acceleration_x": -0.205,
       "acceleration_y": -0.03,
       "acceleration_z": 0.911
@@ -3661,7 +3661,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.325987",
+      "timestamp": "2025-03-09 16:56:19.101922",
       "acceleration_x": -0.201,
       "acceleration_y": 0.063,
       "acceleration_z": 1.079
@@ -3670,7 +3670,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.425987",
+      "timestamp": "2025-03-09 16:56:19.201922",
       "acceleration_x": -0.013,
       "acceleration_y": 0.247,
       "acceleration_z": 0.915
@@ -3679,7 +3679,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.525987",
+      "timestamp": "2025-03-09 16:56:19.301922",
       "acceleration_x": -0.095,
       "acceleration_y": -0.02,
       "acceleration_z": 0.695
@@ -3688,7 +3688,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.625987",
+      "timestamp": "2025-03-09 16:56:19.401922",
       "acceleration_x": -0.282,
       "acceleration_y": 0.181,
       "acceleration_z": 0.795
@@ -3697,7 +3697,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.725987",
+      "timestamp": "2025-03-09 16:56:19.501922",
       "acceleration_x": -0.203,
       "acceleration_y": 0.444,
       "acceleration_z": 0.551
@@ -3706,14 +3706,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.825987",
+      "timestamp": "2025-03-09 16:56:19.601922",
       "heart_rate": 61
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.825987",
+      "timestamp": "2025-03-09 16:56:19.601922",
       "acceleration_x": -0.028,
       "acceleration_y": 0.358,
       "acceleration_z": 0.583
@@ -3722,7 +3722,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:34.925987",
+      "timestamp": "2025-03-09 16:56:19.701922",
       "acceleration_x": -0.617,
       "acceleration_y": 0.401,
       "acceleration_z": 0.929
@@ -3731,7 +3731,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.025987",
+      "timestamp": "2025-03-09 16:56:19.801922",
       "acceleration_x": -0.582,
       "acceleration_y": 0.37,
       "acceleration_z": 1.094
@@ -3740,7 +3740,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.125987",
+      "timestamp": "2025-03-09 16:56:19.901922",
       "acceleration_x": -0.124,
       "acceleration_y": 0.092,
       "acceleration_z": 0.959
@@ -3749,7 +3749,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.225987",
+      "timestamp": "2025-03-09 16:56:20.001922",
       "acceleration_x": -0.605,
       "acceleration_y": 0.12,
       "acceleration_z": 1.157
@@ -3758,7 +3758,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.325987",
+      "timestamp": "2025-03-09 16:56:20.101922",
       "acceleration_x": -0.241,
       "acceleration_y": 0.042,
       "acceleration_z": 0.988
@@ -3767,7 +3767,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.425987",
+      "timestamp": "2025-03-09 16:56:20.201922",
       "acceleration_x": -0.335,
       "acceleration_y": 0.305,
       "acceleration_z": 1.005
@@ -3776,7 +3776,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.525987",
+      "timestamp": "2025-03-09 16:56:20.301922",
       "acceleration_x": -0.234,
       "acceleration_y": 0.067,
       "acceleration_z": 1.567
@@ -3785,7 +3785,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.625987",
+      "timestamp": "2025-03-09 16:56:20.401922",
       "acceleration_x": -0.477,
       "acceleration_y": -0.119,
       "acceleration_z": 1.503
@@ -3794,7 +3794,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.725987",
+      "timestamp": "2025-03-09 16:56:20.501922",
       "acceleration_x": -0.576,
       "acceleration_y": -0.029,
       "acceleration_z": 1.365
@@ -3803,14 +3803,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.825987",
+      "timestamp": "2025-03-09 16:56:20.601922",
       "heart_rate": 63
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.825987",
+      "timestamp": "2025-03-09 16:56:20.601922",
       "acceleration_x": -0.47,
       "acceleration_y": -0.299,
       "acceleration_z": 1.359
@@ -3819,7 +3819,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:35.925987",
+      "timestamp": "2025-03-09 16:56:20.701922",
       "acceleration_x": -0.308,
       "acceleration_y": -0.11,
       "acceleration_z": 0.82
@@ -3828,7 +3828,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.025987",
+      "timestamp": "2025-03-09 16:56:20.801922",
       "acceleration_x": -0.217,
       "acceleration_y": -0.319,
       "acceleration_z": 0.9
@@ -3837,7 +3837,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.125987",
+      "timestamp": "2025-03-09 16:56:20.901922",
       "acceleration_x": -0.483,
       "acceleration_y": -0.153,
       "acceleration_z": 1.024
@@ -3846,7 +3846,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.225987",
+      "timestamp": "2025-03-09 16:56:21.001922",
       "acceleration_x": -0.417,
       "acceleration_y": -0.302,
       "acceleration_z": 0.833
@@ -3855,7 +3855,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.325987",
+      "timestamp": "2025-03-09 16:56:21.101922",
       "acceleration_x": -0.579,
       "acceleration_y": -0.332,
       "acceleration_z": 0.736
@@ -3864,7 +3864,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.425987",
+      "timestamp": "2025-03-09 16:56:21.201922",
       "acceleration_x": -0.338,
       "acceleration_y": -0.248,
       "acceleration_z": 0.659
@@ -3873,7 +3873,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.525987",
+      "timestamp": "2025-03-09 16:56:21.301922",
       "acceleration_x": 0.103,
       "acceleration_y": -0.047,
       "acceleration_z": 0.645
@@ -3882,7 +3882,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.625987",
+      "timestamp": "2025-03-09 16:56:21.401922",
       "acceleration_x": -0.274,
       "acceleration_y": -0.258,
       "acceleration_z": 0.703
@@ -3891,7 +3891,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.725987",
+      "timestamp": "2025-03-09 16:56:21.501922",
       "acceleration_x": -0.092,
       "acceleration_y": -0.139,
       "acceleration_z": 0.618
@@ -3900,14 +3900,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.825987",
+      "timestamp": "2025-03-09 16:56:21.601922",
       "heart_rate": 68
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.825987",
+      "timestamp": "2025-03-09 16:56:21.601922",
       "acceleration_x": 0.016,
       "acceleration_y": -0.007,
       "acceleration_z": 1.225
@@ -3916,7 +3916,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:36.925987",
+      "timestamp": "2025-03-09 16:56:21.701922",
       "acceleration_x": -0.283,
       "acceleration_y": 0.392,
       "acceleration_z": 1.304
@@ -3925,7 +3925,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.025987",
+      "timestamp": "2025-03-09 16:56:21.801922",
       "acceleration_x": -0.008,
       "acceleration_y": 0.288,
       "acceleration_z": 1.997
@@ -3934,7 +3934,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.125987",
+      "timestamp": "2025-03-09 16:56:21.901922",
       "acceleration_x": 0.063,
       "acceleration_y": 0.369,
       "acceleration_z": 1.312
@@ -3943,7 +3943,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.225987",
+      "timestamp": "2025-03-09 16:56:22.001922",
       "acceleration_x": 0.478,
       "acceleration_y": 0.065,
       "acceleration_z": 1.17
@@ -3952,7 +3952,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.325987",
+      "timestamp": "2025-03-09 16:56:22.101922",
       "acceleration_x": 0.571,
       "acceleration_y": 0.287,
       "acceleration_z": 1.524
@@ -3961,7 +3961,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.425987",
+      "timestamp": "2025-03-09 16:56:22.201922",
       "acceleration_x": 0.14,
       "acceleration_y": 0.322,
       "acceleration_z": 1.145
@@ -3970,7 +3970,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.525987",
+      "timestamp": "2025-03-09 16:56:22.301922",
       "acceleration_x": 0.401,
       "acceleration_y": 0.369,
       "acceleration_z": 0.87
@@ -3979,7 +3979,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.625987",
+      "timestamp": "2025-03-09 16:56:22.401922",
       "acceleration_x": 0.595,
       "acceleration_y": 0.118,
       "acceleration_z": 0.745
@@ -3988,7 +3988,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.725987",
+      "timestamp": "2025-03-09 16:56:22.501922",
       "acceleration_x": 0.258,
       "acceleration_y": 0.248,
       "acceleration_z": 0.956
@@ -3997,14 +3997,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.825987",
+      "timestamp": "2025-03-09 16:56:22.601922",
       "heart_rate": 66
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.825987",
+      "timestamp": "2025-03-09 16:56:22.601922",
       "acceleration_x": 0.759,
       "acceleration_y": 0.34,
       "acceleration_z": 0.701
@@ -4013,7 +4013,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:37.925987",
+      "timestamp": "2025-03-09 16:56:22.701922",
       "acceleration_x": 0.632,
       "acceleration_y": 0.138,
       "acceleration_z": 0.966
@@ -4022,7 +4022,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.025987",
+      "timestamp": "2025-03-09 16:56:22.801922",
       "acceleration_x": 0.615,
       "acceleration_y": 0.057,
       "acceleration_z": 0.763
@@ -4031,7 +4031,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.125987",
+      "timestamp": "2025-03-09 16:56:22.901922",
       "acceleration_x": 0.582,
       "acceleration_y": -0.212,
       "acceleration_z": 0.87
@@ -4040,7 +4040,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.225987",
+      "timestamp": "2025-03-09 16:56:23.001922",
       "acceleration_x": 0.438,
       "acceleration_y": -0.098,
       "acceleration_z": 0.543
@@ -4049,7 +4049,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.325987",
+      "timestamp": "2025-03-09 16:56:23.101922",
       "acceleration_x": 0.586,
       "acceleration_y": -0.342,
       "acceleration_z": 1.045
@@ -4058,7 +4058,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.425987",
+      "timestamp": "2025-03-09 16:56:23.201922",
       "acceleration_x": 0.501,
       "acceleration_y": -0.229,
       "acceleration_z": 1.199
@@ -4067,7 +4067,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.525987",
+      "timestamp": "2025-03-09 16:56:23.301922",
       "acceleration_x": 0.532,
       "acceleration_y": -0.437,
       "acceleration_z": 1.018
@@ -4076,7 +4076,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.625987",
+      "timestamp": "2025-03-09 16:56:23.401922",
       "acceleration_x": 0.546,
       "acceleration_y": -0.335,
       "acceleration_z": 1.164
@@ -4085,7 +4085,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.725987",
+      "timestamp": "2025-03-09 16:56:23.501922",
       "acceleration_x": 0.439,
       "acceleration_y": -0.337,
       "acceleration_z": 1.312
@@ -4094,14 +4094,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.825987",
+      "timestamp": "2025-03-09 16:56:23.601922",
       "heart_rate": 67
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.825987",
+      "timestamp": "2025-03-09 16:56:23.601922",
       "acceleration_x": 0.021,
       "acceleration_y": -0.247,
       "acceleration_z": 1.408
@@ -4110,7 +4110,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:38.925987",
+      "timestamp": "2025-03-09 16:56:23.701922",
       "acceleration_x": 0.192,
       "acceleration_y": -0.277,
       "acceleration_z": 1.083
@@ -4119,7 +4119,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.025987",
+      "timestamp": "2025-03-09 16:56:23.801922",
       "acceleration_x": 0.058,
       "acceleration_y": -0.042,
       "acceleration_z": 1.007
@@ -4128,7 +4128,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.125987",
+      "timestamp": "2025-03-09 16:56:23.901922",
       "acceleration_x": 0.074,
       "acceleration_y": -0.158,
       "acceleration_z": 1.239
@@ -4137,7 +4137,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.225987",
+      "timestamp": "2025-03-09 16:56:24.001922",
       "acceleration_x": 0.268,
       "acceleration_y": -0.083,
       "acceleration_z": 0.991
@@ -4146,7 +4146,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.325987",
+      "timestamp": "2025-03-09 16:56:24.101922",
       "acceleration_x": -0.151,
       "acceleration_y": -0.198,
       "acceleration_z": 0.752
@@ -4155,7 +4155,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.425987",
+      "timestamp": "2025-03-09 16:56:24.201922",
       "acceleration_x": 0.211,
       "acceleration_y": 0.175,
       "acceleration_z": 0.604
@@ -4164,7 +4164,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.525987",
+      "timestamp": "2025-03-09 16:56:24.301922",
       "acceleration_x": -0.403,
       "acceleration_y": -0.044,
       "acceleration_z": 0.522
@@ -4173,7 +4173,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.625987",
+      "timestamp": "2025-03-09 16:56:24.401922",
       "acceleration_x": -0.365,
       "acceleration_y": 0.204,
       "acceleration_z": 0.893
@@ -4182,7 +4182,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.725987",
+      "timestamp": "2025-03-09 16:56:24.501922",
       "acceleration_x": 0.023,
       "acceleration_y": 0.441,
       "acceleration_z": 0.992
@@ -4191,14 +4191,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.825987",
+      "timestamp": "2025-03-09 16:56:24.601922",
       "heart_rate": 72
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.825987",
+      "timestamp": "2025-03-09 16:56:24.601922",
       "acceleration_x": -0.081,
       "acceleration_y": 0.279,
       "acceleration_z": 0.812
@@ -4207,7 +4207,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:39.925987",
+      "timestamp": "2025-03-09 16:56:24.701922",
       "acceleration_x": -0.489,
       "acceleration_y": 0.164,
       "acceleration_z": 0.793
@@ -4216,7 +4216,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.025987",
+      "timestamp": "2025-03-09 16:56:24.801922",
       "acceleration_x": -0.673,
       "acceleration_y": 0.317,
       "acceleration_z": 0.738
@@ -4225,7 +4225,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.125987",
+      "timestamp": "2025-03-09 16:56:24.901922",
       "acceleration_x": -0.477,
       "acceleration_y": 0.292,
       "acceleration_z": 1.025
@@ -4234,7 +4234,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.225987",
+      "timestamp": "2025-03-09 16:56:25.001922",
       "acceleration_x": -0.369,
       "acceleration_y": 0.114,
       "acceleration_z": 0.997
@@ -4243,7 +4243,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.325987",
+      "timestamp": "2025-03-09 16:56:25.101922",
       "acceleration_x": -0.629,
       "acceleration_y": 0.083,
       "acceleration_z": 1.108
@@ -4252,7 +4252,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.425987",
+      "timestamp": "2025-03-09 16:56:25.201922",
       "acceleration_x": -0.658,
       "acceleration_y": 0.022,
       "acceleration_z": 1.028
@@ -4261,7 +4261,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.525987",
+      "timestamp": "2025-03-09 16:56:25.301922",
       "acceleration_x": -0.229,
       "acceleration_y": -0.028,
       "acceleration_z": 1.581
@@ -4270,7 +4270,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.625987",
+      "timestamp": "2025-03-09 16:56:25.401922",
       "acceleration_x": -0.428,
       "acceleration_y": -0.055,
       "acceleration_z": 1.323
@@ -4279,7 +4279,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.725987",
+      "timestamp": "2025-03-09 16:56:25.501922",
       "acceleration_x": -0.538,
       "acceleration_y": -0.094,
       "acceleration_z": 1.174
@@ -4288,14 +4288,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.825987",
+      "timestamp": "2025-03-09 16:56:25.601922",
       "heart_rate": 75
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.825987",
+      "timestamp": "2025-03-09 16:56:25.601922",
       "acceleration_x": -0.353,
       "acceleration_y": -0.36,
       "acceleration_z": 1.319
@@ -4304,7 +4304,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:40.925987",
+      "timestamp": "2025-03-09 16:56:25.701922",
       "acceleration_x": -0.4,
       "acceleration_y": -0.07,
       "acceleration_z": 0.835
@@ -4313,7 +4313,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.025987",
+      "timestamp": "2025-03-09 16:56:25.801922",
       "acceleration_x": -0.721,
       "acceleration_y": -0.119,
       "acceleration_z": 1.05
@@ -4322,7 +4322,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.125987",
+      "timestamp": "2025-03-09 16:56:25.901922",
       "acceleration_x": -0.534,
       "acceleration_y": -0.398,
       "acceleration_z": 0.884
@@ -4331,7 +4331,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.225987",
+      "timestamp": "2025-03-09 16:56:26.001922",
       "acceleration_x": -0.384,
       "acceleration_y": -0.138,
       "acceleration_z": 0.704
@@ -4340,7 +4340,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.325987",
+      "timestamp": "2025-03-09 16:56:26.101922",
       "acceleration_x": -0.075,
       "acceleration_y": -0.301,
       "acceleration_z": 0.998
@@ -4349,7 +4349,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.425987",
+      "timestamp": "2025-03-09 16:56:26.201922",
       "acceleration_x": 0.001,
       "acceleration_y": -0.11,
       "acceleration_z": 0.468
@@ -4358,7 +4358,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.525987",
+      "timestamp": "2025-03-09 16:56:26.301922",
       "acceleration_x": -0.211,
       "acceleration_y": -0.186,
       "acceleration_z": 0.988
@@ -4367,7 +4367,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.625987",
+      "timestamp": "2025-03-09 16:56:26.401922",
       "acceleration_x": -0.049,
       "acceleration_y": 0.007,
       "acceleration_z": 0.536
@@ -4376,7 +4376,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.725987",
+      "timestamp": "2025-03-09 16:56:26.501922",
       "acceleration_x": -0.253,
       "acceleration_y": 0.109,
       "acceleration_z": 0.79
@@ -4385,14 +4385,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.825987",
+      "timestamp": "2025-03-09 16:56:26.601922",
       "heart_rate": 73
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.825987",
+      "timestamp": "2025-03-09 16:56:26.601922",
       "acceleration_x": -0.296,
       "acceleration_y": -0.147,
       "acceleration_z": 0.725
@@ -4401,7 +4401,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:41.925987",
+      "timestamp": "2025-03-09 16:56:26.701922",
       "acceleration_x": -0.005,
       "acceleration_y": 0.15,
       "acceleration_z": 1.123
@@ -4410,7 +4410,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.025987",
+      "timestamp": "2025-03-09 16:56:26.801922",
       "acceleration_x": 0.313,
       "acceleration_y": 0.154,
       "acceleration_z": 1.371
@@ -4419,7 +4419,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.125987",
+      "timestamp": "2025-03-09 16:56:26.901922",
       "acceleration_x": 0.296,
       "acceleration_y": 0.01,
       "acceleration_z": 1.419
@@ -4428,7 +4428,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.225987",
+      "timestamp": "2025-03-09 16:56:27.001922",
       "acceleration_x": 0.068,
       "acceleration_y": 0.143,
       "acceleration_z": 1.217
@@ -4437,7 +4437,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.325987",
+      "timestamp": "2025-03-09 16:56:27.101922",
       "acceleration_x": 0.172,
       "acceleration_y": 0.385,
       "acceleration_z": 1.432
@@ -4446,7 +4446,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.425987",
+      "timestamp": "2025-03-09 16:56:27.201922",
       "acceleration_x": 0.262,
       "acceleration_y": 0.145,
       "acceleration_z": 1.293
@@ -4455,7 +4455,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.525987",
+      "timestamp": "2025-03-09 16:56:27.301922",
       "acceleration_x": 0.629,
       "acceleration_y": 0.199,
       "acceleration_z": 1.103
@@ -4464,7 +4464,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.625987",
+      "timestamp": "2025-03-09 16:56:27.401922",
       "acceleration_x": 0.384,
       "acceleration_y": 0.131,
       "acceleration_z": 0.913
@@ -4473,7 +4473,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.725987",
+      "timestamp": "2025-03-09 16:56:27.501922",
       "acceleration_x": 0.717,
       "acceleration_y": 0.408,
       "acceleration_z": 0.687
@@ -4482,14 +4482,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.825987",
+      "timestamp": "2025-03-09 16:56:27.601922",
       "heart_rate": 74
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.825987",
+      "timestamp": "2025-03-09 16:56:27.601922",
       "acceleration_x": 0.234,
       "acceleration_y": 0.317,
       "acceleration_z": 0.588
@@ -4498,7 +4498,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:42.925987",
+      "timestamp": "2025-03-09 16:56:27.701922",
       "acceleration_x": 0.732,
       "acceleration_y": -0.052,
       "acceleration_z": 0.643
@@ -4507,7 +4507,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.025987",
+      "timestamp": "2025-03-09 16:56:27.801922",
       "acceleration_x": 0.438,
       "acceleration_y": 0.073,
       "acceleration_z": 0.696
@@ -4516,7 +4516,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.125987",
+      "timestamp": "2025-03-09 16:56:27.901922",
       "acceleration_x": 0.444,
       "acceleration_y": -0.065,
       "acceleration_z": 0.733
@@ -4525,7 +4525,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.225987",
+      "timestamp": "2025-03-09 16:56:28.001922",
       "acceleration_x": 0.372,
       "acceleration_y": -0.079,
       "acceleration_z": 0.463
@@ -4534,7 +4534,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.325987",
+      "timestamp": "2025-03-09 16:56:28.101922",
       "acceleration_x": 0.256,
       "acceleration_y": -0.258,
       "acceleration_z": 0.858
@@ -4543,7 +4543,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.425987",
+      "timestamp": "2025-03-09 16:56:28.201922",
       "acceleration_x": 0.738,
       "acceleration_y": -0.429,
       "acceleration_z": 0.79
@@ -4552,7 +4552,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.525987",
+      "timestamp": "2025-03-09 16:56:28.301922",
       "acceleration_x": 0.568,
       "acceleration_y": -0.222,
       "acceleration_z": 1.294
@@ -4561,7 +4561,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.625987",
+      "timestamp": "2025-03-09 16:56:28.401922",
       "acceleration_x": 0.358,
       "acceleration_y": -0.287,
       "acceleration_z": 1.108
@@ -4570,7 +4570,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.725987",
+      "timestamp": "2025-03-09 16:56:28.501922",
       "acceleration_x": 0.283,
       "acceleration_y": -0.386,
       "acceleration_z": 1.046
@@ -4579,14 +4579,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.825987",
+      "timestamp": "2025-03-09 16:56:28.601922",
       "heart_rate": 72
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.825987",
+      "timestamp": "2025-03-09 16:56:28.601922",
       "acceleration_x": 0.423,
       "acceleration_y": -0.479,
       "acceleration_z": 1.433
@@ -4595,7 +4595,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:43.925987",
+      "timestamp": "2025-03-09 16:56:28.701922",
       "acceleration_x": 0.058,
       "acceleration_y": -0.222,
       "acceleration_z": 1.207
@@ -4604,7 +4604,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.025987",
+      "timestamp": "2025-03-09 16:56:28.801922",
       "acceleration_x": 0.383,
       "acceleration_y": -0.073,
       "acceleration_z": 1.18
@@ -4613,7 +4613,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.125987",
+      "timestamp": "2025-03-09 16:56:28.901922",
       "acceleration_x": -0.035,
       "acceleration_y": -0.231,
       "acceleration_z": 1.498
@@ -4622,7 +4622,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.225987",
+      "timestamp": "2025-03-09 16:56:29.001922",
       "acceleration_x": 0.358,
       "acceleration_y": 0.032,
       "acceleration_z": 0.974
@@ -4631,7 +4631,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.325987",
+      "timestamp": "2025-03-09 16:56:29.101922",
       "acceleration_x": 0.112,
       "acceleration_y": -0.172,
       "acceleration_z": 0.813
@@ -4640,7 +4640,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.425987",
+      "timestamp": "2025-03-09 16:56:29.201922",
       "acceleration_x": -0.032,
       "acceleration_y": -0.11,
       "acceleration_z": 0.993
@@ -4649,7 +4649,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.525987",
+      "timestamp": "2025-03-09 16:56:29.301922",
       "acceleration_x": -0.117,
       "acceleration_y": -0.04,
       "acceleration_z": 0.73
@@ -4658,7 +4658,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.625987",
+      "timestamp": "2025-03-09 16:56:29.401922",
       "acceleration_x": 0.103,
       "acceleration_y": 0.251,
       "acceleration_z": 1.008
@@ -4667,7 +4667,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.725987",
+      "timestamp": "2025-03-09 16:56:29.501922",
       "acceleration_x": -0.062,
       "acceleration_y": 0.419,
       "acceleration_z": 0.529
@@ -4676,14 +4676,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.825987",
+      "timestamp": "2025-03-09 16:56:29.601922",
       "heart_rate": 71
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.825987",
+      "timestamp": "2025-03-09 16:56:29.601922",
       "acceleration_x": -0.445,
       "acceleration_y": 0.45,
       "acceleration_z": 0.468
@@ -4692,7 +4692,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:44.925987",
+      "timestamp": "2025-03-09 16:56:29.701922",
       "acceleration_x": -0.136,
       "acceleration_y": 0.354,
       "acceleration_z": 0.606
@@ -4701,7 +4701,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.025987",
+      "timestamp": "2025-03-09 16:56:29.801922",
       "acceleration_x": -0.241,
       "acceleration_y": 0.244,
       "acceleration_z": 0.728
@@ -4710,7 +4710,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.125987",
+      "timestamp": "2025-03-09 16:56:29.901922",
       "acceleration_x": -0.306,
       "acceleration_y": 0.249,
       "acceleration_z": 0.7
@@ -4719,7 +4719,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.225987",
+      "timestamp": "2025-03-09 16:56:30.001922",
       "acceleration_x": -0.199,
       "acceleration_y": 0.168,
       "acceleration_z": 0.929
@@ -4728,7 +4728,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.325987",
+      "timestamp": "2025-03-09 16:56:30.101922",
       "acceleration_x": -0.279,
       "acceleration_y": 0.054,
       "acceleration_z": 1.464
@@ -4737,7 +4737,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.425987",
+      "timestamp": "2025-03-09 16:56:30.201922",
       "acceleration_x": -0.679,
       "acceleration_y": 0.036,
       "acceleration_z": 1.23
@@ -4746,7 +4746,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.525987",
+      "timestamp": "2025-03-09 16:56:30.301922",
       "acceleration_x": -0.784,
       "acceleration_y": -0.037,
       "acceleration_z": 1.007
@@ -4755,7 +4755,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.625987",
+      "timestamp": "2025-03-09 16:56:30.401922",
       "acceleration_x": -0.649,
       "acceleration_y": -0.109,
       "acceleration_z": 1.462
@@ -4764,7 +4764,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.725987",
+      "timestamp": "2025-03-09 16:56:30.501922",
       "acceleration_x": -0.661,
       "acceleration_y": -0.146,
       "acceleration_z": 1.099
@@ -4773,14 +4773,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.825987",
+      "timestamp": "2025-03-09 16:56:30.601922",
       "heart_rate": 67
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.825987",
+      "timestamp": "2025-03-09 16:56:30.601922",
       "acceleration_x": -0.577,
       "acceleration_y": -0.365,
       "acceleration_z": 1.313
@@ -4789,7 +4789,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:45.925987",
+      "timestamp": "2025-03-09 16:56:30.701922",
       "acceleration_x": -0.653,
       "acceleration_y": -0.203,
       "acceleration_z": 1.155
@@ -4798,7 +4798,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.025987",
+      "timestamp": "2025-03-09 16:56:30.801922",
       "acceleration_x": -0.279,
       "acceleration_y": -0.221,
       "acceleration_z": 1.131
@@ -4807,7 +4807,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.125987",
+      "timestamp": "2025-03-09 16:56:30.901922",
       "acceleration_x": -0.459,
       "acceleration_y": -0.399,
       "acceleration_z": 0.646
@@ -4816,7 +4816,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.225987",
+      "timestamp": "2025-03-09 16:56:31.001922",
       "acceleration_x": -0.103,
       "acceleration_y": -0.367,
       "acceleration_z": 0.963
@@ -4825,7 +4825,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.325987",
+      "timestamp": "2025-03-09 16:56:31.101922",
       "acceleration_x": -0.159,
       "acceleration_y": -0.185,
       "acceleration_z": 0.453
@@ -4834,7 +4834,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.425987",
+      "timestamp": "2025-03-09 16:56:31.201922",
       "acceleration_x": -0.485,
       "acceleration_y": -0.177,
       "acceleration_z": 0.756
@@ -4843,7 +4843,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.525987",
+      "timestamp": "2025-03-09 16:56:31.301922",
       "acceleration_x": -0.016,
       "acceleration_y": -0.149,
       "acceleration_z": 0.537
@@ -4852,7 +4852,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.625987",
+      "timestamp": "2025-03-09 16:56:31.401922",
       "acceleration_x": 0.069,
       "acceleration_y": -0.207,
       "acceleration_z": 0.814
@@ -4861,7 +4861,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.725987",
+      "timestamp": "2025-03-09 16:56:31.501922",
       "acceleration_x": -0.224,
       "acceleration_y": 0.026,
       "acceleration_z": 0.786
@@ -4870,14 +4870,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.825987",
+      "timestamp": "2025-03-09 16:56:31.601922",
       "heart_rate": 70
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.825987",
+      "timestamp": "2025-03-09 16:56:31.601922",
       "acceleration_x": 0.306,
       "acceleration_y": -0.167,
       "acceleration_z": 1.751
@@ -4886,7 +4886,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:46.925987",
+      "timestamp": "2025-03-09 16:56:31.701922",
       "acceleration_x": -0.072,
       "acceleration_y": 0.125,
       "acceleration_z": 1.393
@@ -4895,7 +4895,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.025987",
+      "timestamp": "2025-03-09 16:56:31.801922",
       "acceleration_x": 0.486,
       "acceleration_y": 0.283,
       "acceleration_z": 2.023
@@ -4904,7 +4904,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.125987",
+      "timestamp": "2025-03-09 16:56:31.901922",
       "acceleration_x": 0.105,
       "acceleration_y": 0.097,
       "acceleration_z": 1.43
@@ -4913,7 +4913,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.225987",
+      "timestamp": "2025-03-09 16:56:32.001922",
       "acceleration_x": 0.182,
       "acceleration_y": 0.416,
       "acceleration_z": 1.045
@@ -4922,7 +4922,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.325987",
+      "timestamp": "2025-03-09 16:56:32.101922",
       "acceleration_x": 0.408,
       "acceleration_y": 0.225,
       "acceleration_z": 1.532
@@ -4931,7 +4931,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.425987",
+      "timestamp": "2025-03-09 16:56:32.201922",
       "acceleration_x": 0.067,
       "acceleration_y": 0.367,
       "acceleration_z": 1.344
@@ -4940,7 +4940,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.525987",
+      "timestamp": "2025-03-09 16:56:32.301922",
       "acceleration_x": 0.169,
       "acceleration_y": 0.288,
       "acceleration_z": 0.954
@@ -4949,7 +4949,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.625987",
+      "timestamp": "2025-03-09 16:56:32.401922",
       "acceleration_x": 0.709,
       "acceleration_y": 0.126,
       "acceleration_z": 1.02
@@ -4958,7 +4958,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.725987",
+      "timestamp": "2025-03-09 16:56:32.501922",
       "acceleration_x": 0.374,
       "acceleration_y": 0.291,
       "acceleration_z": 1.048
@@ -4967,14 +4967,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.825987",
+      "timestamp": "2025-03-09 16:56:32.601922",
       "heart_rate": 65
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.825987",
+      "timestamp": "2025-03-09 16:56:32.601922",
       "acceleration_x": 0.428,
       "acceleration_y": 0.006,
       "acceleration_z": 0.915
@@ -4983,7 +4983,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:47.925987",
+      "timestamp": "2025-03-09 16:56:32.701922",
       "acceleration_x": 0.626,
       "acceleration_y": 0.212,
       "acceleration_z": 0.866
@@ -4992,7 +4992,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.025987",
+      "timestamp": "2025-03-09 16:56:32.801922",
       "acceleration_x": 0.77,
       "acceleration_y": -0.051,
       "acceleration_z": 0.923
@@ -5001,7 +5001,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.125987",
+      "timestamp": "2025-03-09 16:56:32.901922",
       "acceleration_x": 0.212,
       "acceleration_y": 0.002,
       "acceleration_z": 0.949
@@ -5010,7 +5010,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.225987",
+      "timestamp": "2025-03-09 16:56:33.001922",
       "acceleration_x": 0.198,
       "acceleration_y": -0.252,
       "acceleration_z": 0.697
@@ -5019,7 +5019,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.325987",
+      "timestamp": "2025-03-09 16:56:33.101922",
       "acceleration_x": 0.448,
       "acceleration_y": 0.004,
       "acceleration_z": 0.66
@@ -5028,7 +5028,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.425987",
+      "timestamp": "2025-03-09 16:56:33.201922",
       "acceleration_x": 0.28,
       "acceleration_y": -0.337,
       "acceleration_z": 0.773
@@ -5037,7 +5037,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.525987",
+      "timestamp": "2025-03-09 16:56:33.301922",
       "acceleration_x": 0.509,
       "acceleration_y": -0.1,
       "acceleration_z": 0.824
@@ -5046,7 +5046,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.625987",
+      "timestamp": "2025-03-09 16:56:33.401922",
       "acceleration_x": 0.244,
       "acceleration_y": -0.113,
       "acceleration_z": 1.23
@@ -5055,7 +5055,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.725987",
+      "timestamp": "2025-03-09 16:56:33.501922",
       "acceleration_x": 0.569,
       "acceleration_y": -0.106,
       "acceleration_z": 0.993
@@ -5064,14 +5064,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.825987",
+      "timestamp": "2025-03-09 16:56:33.601922",
       "heart_rate": 64
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.825987",
+      "timestamp": "2025-03-09 16:56:33.601922",
       "acceleration_x": 0.521,
       "acceleration_y": -0.43,
       "acceleration_z": 1.256
@@ -5080,7 +5080,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:48.925987",
+      "timestamp": "2025-03-09 16:56:33.701922",
       "acceleration_x": 0.519,
       "acceleration_y": -0.375,
       "acceleration_z": 1.481
@@ -5089,7 +5089,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.025987",
+      "timestamp": "2025-03-09 16:56:33.801922",
       "acceleration_x": -0.074,
       "acceleration_y": -0.331,
       "acceleration_z": 1.225
@@ -5098,7 +5098,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.125987",
+      "timestamp": "2025-03-09 16:56:33.901922",
       "acceleration_x": 0.328,
       "acceleration_y": 0.051,
       "acceleration_z": 1.122
@@ -5107,7 +5107,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.225987",
+      "timestamp": "2025-03-09 16:56:34.001922",
       "acceleration_x": 0.195,
       "acceleration_y": -0.109,
       "acceleration_z": 1.326
@@ -5116,7 +5116,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.325987",
+      "timestamp": "2025-03-09 16:56:34.101922",
       "acceleration_x": -0.025,
       "acceleration_y": 0.143,
       "acceleration_z": 0.849
@@ -5125,7 +5125,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.425987",
+      "timestamp": "2025-03-09 16:56:34.201922",
       "acceleration_x": -0.188,
       "acceleration_y": 0.166,
       "acceleration_z": 0.99
@@ -5134,7 +5134,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.525987",
+      "timestamp": "2025-03-09 16:56:34.301922",
       "acceleration_x": 0.119,
       "acceleration_y": 0.029,
       "acceleration_z": 0.911
@@ -5143,7 +5143,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.625987",
+      "timestamp": "2025-03-09 16:56:34.401922",
       "acceleration_x": -0.095,
       "acceleration_y": 0.343,
       "acceleration_z": 0.954
@@ -5152,7 +5152,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.725987",
+      "timestamp": "2025-03-09 16:56:34.501922",
       "acceleration_x": -0.021,
       "acceleration_y": 0.429,
       "acceleration_z": 0.892
@@ -5161,14 +5161,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.825987",
+      "timestamp": "2025-03-09 16:56:34.601922",
       "heart_rate": 63
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.825987",
+      "timestamp": "2025-03-09 16:56:34.601922",
       "acceleration_x": -0.339,
       "acceleration_y": 0.364,
       "acceleration_z": 0.993
@@ -5177,7 +5177,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:49.925987",
+      "timestamp": "2025-03-09 16:56:34.701922",
       "acceleration_x": -0.246,
       "acceleration_y": 0.186,
       "acceleration_z": 0.531
@@ -5186,7 +5186,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.025987",
+      "timestamp": "2025-03-09 16:56:34.801922",
       "acceleration_x": -0.191,
       "acceleration_y": 0.112,
       "acceleration_z": 1.134
@@ -5195,7 +5195,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.125987",
+      "timestamp": "2025-03-09 16:56:34.901922",
       "acceleration_x": -0.467,
       "acceleration_y": 0.154,
       "acceleration_z": 1.025
@@ -5204,7 +5204,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.225987",
+      "timestamp": "2025-03-09 16:56:35.001922",
       "acceleration_x": -0.714,
       "acceleration_y": 0.394,
       "acceleration_z": 0.936
@@ -5213,7 +5213,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.325987",
+      "timestamp": "2025-03-09 16:56:35.101922",
       "acceleration_x": -0.654,
       "acceleration_y": 0.256,
       "acceleration_z": 1.192
@@ -5222,7 +5222,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.425987",
+      "timestamp": "2025-03-09 16:56:35.201922",
       "acceleration_x": -0.762,
       "acceleration_y": -0.033,
       "acceleration_z": 1.54
@@ -5231,7 +5231,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.525987",
+      "timestamp": "2025-03-09 16:56:35.301922",
       "acceleration_x": -0.602,
       "acceleration_y": 0.236,
       "acceleration_z": 1.491
@@ -5240,7 +5240,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.625987",
+      "timestamp": "2025-03-09 16:56:35.401922",
       "acceleration_x": -0.638,
       "acceleration_y": 0.113,
       "acceleration_z": 1.278
@@ -5249,7 +5249,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.725987",
+      "timestamp": "2025-03-09 16:56:35.501922",
       "acceleration_x": -0.324,
       "acceleration_y": 0.008,
       "acceleration_z": 1.382
@@ -5258,14 +5258,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.825987",
+      "timestamp": "2025-03-09 16:56:35.601922",
       "heart_rate": 62
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.825987",
+      "timestamp": "2025-03-09 16:56:35.601922",
       "acceleration_x": -0.552,
       "acceleration_y": -0.219,
       "acceleration_z": 0.974
@@ -5274,7 +5274,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:50.925987",
+      "timestamp": "2025-03-09 16:56:35.701922",
       "acceleration_x": -0.32,
       "acceleration_y": -0.042,
       "acceleration_z": 1.222
@@ -5283,7 +5283,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.025987",
+      "timestamp": "2025-03-09 16:56:35.801922",
       "acceleration_x": -0.65,
       "acceleration_y": -0.383,
       "acceleration_z": 0.873
@@ -5292,7 +5292,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.125987",
+      "timestamp": "2025-03-09 16:56:35.901922",
       "acceleration_x": -0.306,
       "acceleration_y": -0.298,
       "acceleration_z": 0.761
@@ -5301,7 +5301,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.225987",
+      "timestamp": "2025-03-09 16:56:36.001922",
       "acceleration_x": -0.518,
       "acceleration_y": -0.142,
       "acceleration_z": 1.062
@@ -5310,7 +5310,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.325987",
+      "timestamp": "2025-03-09 16:56:36.101922",
       "acceleration_x": -0.115,
       "acceleration_y": -0.436,
       "acceleration_z": 0.827
@@ -5319,7 +5319,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.425987",
+      "timestamp": "2025-03-09 16:56:36.201922",
       "acceleration_x": 0.003,
       "acceleration_y": -0.302,
       "acceleration_z": 0.57
@@ -5328,7 +5328,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.525987",
+      "timestamp": "2025-03-09 16:56:36.301922",
       "acceleration_x": -0.078,
       "acceleration_y": -0.104,
       "acceleration_z": 0.732
@@ -5337,7 +5337,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.625987",
+      "timestamp": "2025-03-09 16:56:36.401922",
       "acceleration_x": 0.115,
       "acceleration_y": -0.038,
       "acceleration_z": 0.599
@@ -5346,7 +5346,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.725987",
+      "timestamp": "2025-03-09 16:56:36.501922",
       "acceleration_x": -0.039,
       "acceleration_y": -0.182,
       "acceleration_z": 0.855
@@ -5355,14 +5355,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.825987",
+      "timestamp": "2025-03-09 16:56:36.601922",
       "heart_rate": 66
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.825987",
+      "timestamp": "2025-03-09 16:56:36.601922",
       "acceleration_x": 0.254,
       "acceleration_y": -0.05,
       "acceleration_z": 1.223
@@ -5371,7 +5371,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:51.925987",
+      "timestamp": "2025-03-09 16:56:36.701922",
       "acceleration_x": 0.21,
       "acceleration_y": 0.167,
       "acceleration_z": 1.218
@@ -5380,7 +5380,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.025987",
+      "timestamp": "2025-03-09 16:56:36.801922",
       "acceleration_x": 0.028,
       "acceleration_y": 0.079,
       "acceleration_z": 1.018
@@ -5389,7 +5389,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.125987",
+      "timestamp": "2025-03-09 16:56:36.901922",
       "acceleration_x": 0.399,
       "acceleration_y": 0.361,
       "acceleration_z": 0.994
@@ -5398,7 +5398,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.225987",
+      "timestamp": "2025-03-09 16:56:37.001922",
       "acceleration_x": 0.522,
       "acceleration_y": 0.415,
       "acceleration_z": 1.044
@@ -5407,7 +5407,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.325987",
+      "timestamp": "2025-03-09 16:56:37.101922",
       "acceleration_x": 0.369,
       "acceleration_y": 0.095,
       "acceleration_z": 1.244
@@ -5416,7 +5416,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.425987",
+      "timestamp": "2025-03-09 16:56:37.201922",
       "acceleration_x": 0.538,
       "acceleration_y": 0.221,
       "acceleration_z": 1.044
@@ -5425,7 +5425,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.525987",
+      "timestamp": "2025-03-09 16:56:37.301922",
       "acceleration_x": 0.481,
       "acceleration_y": 0.17,
       "acceleration_z": 1.397
@@ -5434,7 +5434,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.625987",
+      "timestamp": "2025-03-09 16:56:37.401922",
       "acceleration_x": 0.436,
       "acceleration_y": 0.212,
       "acceleration_z": 0.753
@@ -5443,7 +5443,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.725987",
+      "timestamp": "2025-03-09 16:56:37.501922",
       "acceleration_x": 0.414,
       "acceleration_y": 0.118,
       "acceleration_z": 1.137
@@ -5452,14 +5452,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.825987",
+      "timestamp": "2025-03-09 16:56:37.601922",
       "heart_rate": 63
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.825987",
+      "timestamp": "2025-03-09 16:56:37.601922",
       "acceleration_x": 0.397,
       "acceleration_y": 0.141,
       "acceleration_z": 1.076
@@ -5468,7 +5468,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:52.925987",
+      "timestamp": "2025-03-09 16:56:37.701922",
       "acceleration_x": 0.287,
       "acceleration_y": 0.202,
       "acceleration_z": 0.982
@@ -5477,7 +5477,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.025987",
+      "timestamp": "2025-03-09 16:56:37.801922",
       "acceleration_x": 0.688,
       "acceleration_y": -0.121,
       "acceleration_z": 0.758
@@ -5486,7 +5486,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.125987",
+      "timestamp": "2025-03-09 16:56:37.901922",
       "acceleration_x": 0.456,
       "acceleration_y": -0.016,
       "acceleration_z": 0.827
@@ -5495,7 +5495,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.225987",
+      "timestamp": "2025-03-09 16:56:38.001922",
       "acceleration_x": 0.581,
       "acceleration_y": -0.096,
       "acceleration_z": 0.482
@@ -5504,7 +5504,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.325987",
+      "timestamp": "2025-03-09 16:56:38.101922",
       "acceleration_x": 0.33,
       "acceleration_y": -0.236,
       "acceleration_z": 0.88
@@ -5513,7 +5513,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.425987",
+      "timestamp": "2025-03-09 16:56:38.201922",
       "acceleration_x": 0.211,
       "acceleration_y": -0.093,
       "acceleration_z": 0.807
@@ -5522,7 +5522,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.525987",
+      "timestamp": "2025-03-09 16:56:38.301922",
       "acceleration_x": 0.362,
       "acceleration_y": -0.331,
       "acceleration_z": 0.907
@@ -5531,7 +5531,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.625987",
+      "timestamp": "2025-03-09 16:56:38.401922",
       "acceleration_x": 0.611,
       "acceleration_y": -0.32,
       "acceleration_z": 0.936
@@ -5540,7 +5540,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.725987",
+      "timestamp": "2025-03-09 16:56:38.501922",
       "acceleration_x": 0.429,
       "acceleration_y": -0.209,
       "acceleration_z": 1.526
@@ -5549,14 +5549,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.825987",
+      "timestamp": "2025-03-09 16:56:38.601922",
       "heart_rate": 64
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.825987",
+      "timestamp": "2025-03-09 16:56:38.601922",
       "acceleration_x": 0.317,
       "acceleration_y": -0.246,
       "acceleration_z": 1.409
@@ -5565,7 +5565,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:53.925987",
+      "timestamp": "2025-03-09 16:56:38.701922",
       "acceleration_x": -0.033,
       "acceleration_y": -0.394,
       "acceleration_z": 1.168
@@ -5574,7 +5574,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.025987",
+      "timestamp": "2025-03-09 16:56:38.801922",
       "acceleration_x": 0.48,
       "acceleration_y": -0.383,
       "acceleration_z": 1.567
@@ -5583,7 +5583,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.125987",
+      "timestamp": "2025-03-09 16:56:38.901922",
       "acceleration_x": 0.322,
       "acceleration_y": -0.113,
       "acceleration_z": 1.2
@@ -5592,7 +5592,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.225987",
+      "timestamp": "2025-03-09 16:56:39.001922",
       "acceleration_x": 0.217,
       "acceleration_y": -0.224,
       "acceleration_z": 0.83
@@ -5601,7 +5601,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.325987",
+      "timestamp": "2025-03-09 16:56:39.101922",
       "acceleration_x": -0.008,
       "acceleration_y": 0.129,
       "acceleration_z": 0.811
@@ -5610,7 +5610,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.425987",
+      "timestamp": "2025-03-09 16:56:39.201922",
       "acceleration_x": -0.319,
       "acceleration_y": 0.153,
       "acceleration_z": 0.619
@@ -5619,7 +5619,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.525987",
+      "timestamp": "2025-03-09 16:56:39.301922",
       "acceleration_x": 0.106,
       "acceleration_y": 0.278,
       "acceleration_z": 0.739
@@ -5628,7 +5628,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.625987",
+      "timestamp": "2025-03-09 16:56:39.401922",
       "acceleration_x": -0.44,
       "acceleration_y": 0.042,
       "acceleration_z": 0.455
@@ -5637,7 +5637,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.725987",
+      "timestamp": "2025-03-09 16:56:39.501922",
       "acceleration_x": -0.007,
       "acceleration_y": 0.369,
       "acceleration_z": 0.482
@@ -5646,14 +5646,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.825987",
+      "timestamp": "2025-03-09 16:56:39.601922",
       "heart_rate": 66
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.825987",
+      "timestamp": "2025-03-09 16:56:39.601922",
       "acceleration_x": -0.483,
       "acceleration_y": 0.259,
       "acceleration_z": 0.843
@@ -5662,7 +5662,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:54.925987",
+      "timestamp": "2025-03-09 16:56:39.701922",
       "acceleration_x": -0.56,
       "acceleration_y": 0.288,
       "acceleration_z": 0.804
@@ -5671,7 +5671,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.025987",
+      "timestamp": "2025-03-09 16:56:39.801922",
       "acceleration_x": -0.684,
       "acceleration_y": 0.345,
       "acceleration_z": 1.008
@@ -5680,7 +5680,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.125987",
+      "timestamp": "2025-03-09 16:56:39.901922",
       "acceleration_x": -0.371,
       "acceleration_y": 0.417,
       "acceleration_z": 0.907
@@ -5689,7 +5689,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.225987",
+      "timestamp": "2025-03-09 16:56:40.001922",
       "acceleration_x": -0.566,
       "acceleration_y": 0.043,
       "acceleration_z": 0.776
@@ -5698,7 +5698,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.325987",
+      "timestamp": "2025-03-09 16:56:40.101922",
       "acceleration_x": -0.542,
       "acceleration_y": 0.101,
       "acceleration_z": 0.945
@@ -5707,7 +5707,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.425987",
+      "timestamp": "2025-03-09 16:56:40.201922",
       "acceleration_x": -0.529,
       "acceleration_y": 0.136,
       "acceleration_z": 1.339
@@ -5716,7 +5716,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.525987",
+      "timestamp": "2025-03-09 16:56:40.301922",
       "acceleration_x": -0.659,
       "acceleration_y": -0.137,
       "acceleration_z": 1.131
@@ -5725,7 +5725,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.625987",
+      "timestamp": "2025-03-09 16:56:40.401922",
       "acceleration_x": -0.262,
       "acceleration_y": 0.137,
       "acceleration_z": 1.51
@@ -5734,7 +5734,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.725987",
+      "timestamp": "2025-03-09 16:56:40.501922",
       "acceleration_x": -0.437,
       "acceleration_y": -0.155,
       "acceleration_z": 1.199
@@ -5743,14 +5743,14 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.825987",
+      "timestamp": "2025-03-09 16:56:40.601922",
       "heart_rate": 71
     }
   },
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.825987",
+      "timestamp": "2025-03-09 16:56:40.601922",
       "acceleration_x": -0.478,
       "acceleration_y": -0.045,
       "acceleration_z": 1.065
@@ -5759,7 +5759,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:55.925987",
+      "timestamp": "2025-03-09 16:56:40.701922",
       "acceleration_x": -0.188,
       "acceleration_y": -0.163,
       "acceleration_z": 0.927
@@ -5768,7 +5768,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:56.025987",
+      "timestamp": "2025-03-09 16:56:40.801922",
       "acceleration_x": -0.61,
       "acceleration_y": -0.191,
       "acceleration_z": 0.72
@@ -5777,7 +5777,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:56.125987",
+      "timestamp": "2025-03-09 16:56:40.901922",
       "acceleration_x": -0.339,
       "acceleration_y": -0.401,
       "acceleration_z": 1.064
@@ -5786,7 +5786,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:56.225987",
+      "timestamp": "2025-03-09 16:56:41.001922",
       "acceleration_x": -0.631,
       "acceleration_y": -0.433,
       "acceleration_z": 0.966
@@ -5795,7 +5795,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:56.325987",
+      "timestamp": "2025-03-09 16:56:41.101922",
       "acceleration_x": -0.574,
       "acceleration_y": -0.213,
       "acceleration_z": 0.447
@@ -5804,7 +5804,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:56.425987",
+      "timestamp": "2025-03-09 16:56:41.201922",
       "acceleration_x": -0.059,
       "acceleration_y": -0.164,
       "acceleration_z": 0.886
@@ -5813,7 +5813,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:56.525987",
+      "timestamp": "2025-03-09 16:56:41.301922",
       "acceleration_x": 0.057,
       "acceleration_y": -0.062,
       "acceleration_z": 0.542
@@ -5822,7 +5822,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:56.625987",
+      "timestamp": "2025-03-09 16:56:41.401922",
       "acceleration_x": -0.073,
       "acceleration_y": -0.342,
       "acceleration_z": 0.779
@@ -5831,7 +5831,7 @@
   {
     "type": "record",
     "data": {
-      "timestamp": "2025-03-09 16:44:56.725987",
+      "timestamp": "2025-03-09 16:56:41.501922",
       "acceleration_x": -0.012,
       "acceleration_y": -0.012,
       "acceleration_z": 0.823

@@ -19,6 +19,9 @@ NC='\033[0m' # No Color
 echo -e "${BLUE}Hockey Garmin Full Test Suite${NC}"
 echo -e "${BLUE}=============================${NC}\n"
 
+# Create test_outputs directory if it doesn't exist
+mkdir -p "$SCRIPT_DIR/test_outputs"
+
 # Check if fitparse is installed
 if python -c "import fitparse" &>/dev/null; then
     FITPARSE_INSTALLED=true
@@ -44,10 +47,10 @@ fi
 echo -e "\n${BLUE}Step 2: Converting sensor data to FIT format...${NC}\n"
 
 # Generate or use existing sensor data
-if [ -f "sensor_test_data.json" ]; then
+if [ -f "$SCRIPT_DIR/test_outputs/sensor_test_data.json" ]; then
     # Convert to FIT format
     if [ "$FITPARSE_INSTALLED" = true ]; then
-        python json_to_fit.py --input sensor_test_data.json --output sensor_test_data.fit
+        python json_to_fit.py --input "$SCRIPT_DIR/test_outputs/sensor_test_data.json" --output "$SCRIPT_DIR/test_outputs/sensor_test_data.fit"
         FIT_RESULT=$?
         
         if [ $FIT_RESULT -eq 0 ]; then
@@ -56,7 +59,7 @@ if [ -f "sensor_test_data.json" ]; then
             echo -e "- Garmin Connect IQ SDK"
             echo -e "- Garmin Connect Web Tool"
             echo -e "- FIT File Tools"
-            echo -e "\nFIT file location: ${CYAN}$SCRIPT_DIR/sensor_test_data.fit${NC}"
+            echo -e "\nFIT file location: ${CYAN}$SCRIPT_DIR/test_outputs/sensor_test_data.fit${NC}"
         else
             echo -e "\n${RED}❌ FIT conversion failed.${NC}"
             echo -e "Please check the error messages above."
@@ -70,4 +73,11 @@ else
     echo -e "Please run the sensor tests first to generate data."
 fi
 
+# Clean up temporary test run folder
+if [ -d "$SCRIPT_DIR/test_outputs/test_run" ]; then
+  echo -e "\n${YELLOW}Cleaning up temporary test files...${NC}"
+  rm -rf "$SCRIPT_DIR/test_outputs/test_run"
+fi
+
+echo -e "\n${GREEN}All test files are stored in: $SCRIPT_DIR/test_outputs/${NC}"
 echo -e "\n${BLUE}Test suite completed.${NC}" 

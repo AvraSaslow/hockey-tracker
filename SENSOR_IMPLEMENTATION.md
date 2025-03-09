@@ -251,10 +251,11 @@ For testing sensor implementations without using the simulator:
 - Edge cases can be simulated to verify app robustness
 - Performance metrics can be collected during testing to evaluate efficiency
 
-To run direct tests, use the tools in the Testing directory:
+To run the test, use:
+
 ```bash
 cd Testing
-./test_simple_heartrate.py --test-mode --device fenix6
+./generate_data.py --test-mode --device fenix6
 ```
 
 See the Testing/README.md file for more detailed information on the testing tools and options. 

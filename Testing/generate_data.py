@@ -11,17 +11,17 @@ requiring the Garmin Connect IQ Simulator. It can:
 4. Run comprehensive sensor tests in a CI/CD environment
 
 Usage:
-    python test_simple_heartrate.py [options]
+    python generate_data.py [options]
 
 Options:
     --duration SECONDS      Test duration in seconds (default: 60)
     --hr-min VALUE          Minimum heart rate in bpm (default: 60)
     --hr-max VALUE          Maximum heart rate in bpm (default: 180)
     --output FILE           Output file name (default: sensor_test_data.json)
-    --test-mode             Run in test mode (direct testing without simulator)
-    --device ID             Target device ID when in test mode
-    --input FILE            Input file name for existing test data (default: None)
-    --help                  Show this help message
+    --test-mode             Run direct sensor testing after generating data
+    --device DEVICE         Target device for testing (default: fenix6)
+    --verbose               Display detailed test output
+    --input FILE            Use existing test data file instead of generating new data
 """
 
 import json
