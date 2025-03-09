@@ -39,29 +39,166 @@ if (sensorData has :accelerometer && sensorData.accelerometer != null) {
 - Identify stopping/starting patterns
 - Potentially recognize shot motions
 - Track overall movement exertion
+- **Primary sensor for speed calculation** (especially critical for indoor rinks)
+- **Motion pattern recognition** for hockey-specific movements
 
-## Testing in Simulator
+### GPS Sensor (Planned Implementation)
+**Unit**: m/s for speed, decimal degrees for position
 
-The Garmin simulator can simulate sensor data for testing. To test sensor implementation:
+**Implementation (Planned)**:
+```monkey
+if (Position has :speed && Position.speed != null) {
+    // GPS speed data available
+    var gpsSpeed = Position.speed;
+    System.println("GPS Speed: " + gpsSpeed + " m/s");
+}
+```
 
-1. Run the app in the simulator
-2. Use the Sensor tab in the simulator
-3. For Heart Rate:
-   - Set values between 60-200 bpm for testing different intensities
-   - Test transitions between zones
-4. For Accelerometer:
-   - Test different values for x, y, z axes
-   - Simulate changes that would represent skating, stopping, etc.
+**Usage in Hockey Context**:
+- Backup/secondary speed measurement
+- Position tracking for outdoor rinks
+- Validation of accelerometer-derived speed
+- Long-term distance accumulation
 
-## Planned Future Sensor Implementations
+## Sensor Fusion Strategy: Accelerometer-Primary with GPS Backup
 
-### Temperature Sensor
-**Unit**: Degrees Celsius (°C)
-**Purpose**: Track environmental conditions, especially for outdoor rinks
+### Why Accelerometer-Primary?
+1. **Indoor Compatibility**: Most hockey is played indoors where GPS signals are weak or unavailable
+2. **Higher Sample Rate**: Accelerometer data can be sampled at much higher frequencies (typically 25-100Hz) compared to GPS (typically 1Hz)
+3. **Lower Battery Impact**: Accelerometer sensors consume significantly less power than continuous GPS tracking
+4. **Low Latency**: Provides immediate feedback on movement changes without GPS acquisition delays
+5. **Motion Pattern Recognition**: Can detect hockey-specific movements like stops, starts, and shot attempts
 
-### Barometer/Altitude Sensor
-**Unit**: Millibars (mb) / Meters (m)
-**Purpose**: Track altitude for games at different elevations, which can affect player stamina
+### Accelerometer Speed Calculation
+Speed will be calculated from accelerometer data using the following steps:
+
+1. **Preprocessing**:
+   - Apply low-pass filter to remove high-frequency noise
+   - Detect and correct for device orientation
+   - Identify and remove gravity component
+
+2. **Integration**:
+   - First integration of acceleration yields velocity
+   - Apply high-pass filter to combat drift
+   - Reset integration when stationary periods detected
+   - Implementation:
+   ```monkey
+   // Pseudocode for accelerometer speed calculation
+   function calculateSpeedFromAccel(accelX, accelY, accelZ, deltaTime) {
+       // Remove gravity and correct orientation
+       var linearAccel = removeGravity(accelX, accelY, accelZ);
+       
+       // Integrate to get velocity
+       _velocityX += linearAccel[0] * deltaTime;
+       _velocityY += linearAccel[1] * deltaTime;
+       _velocityZ += linearAccel[2] * deltaTime;
+       
+       // Apply high-pass filter to combat drift
+       applyDriftCorrection();
+       
+       // Calculate speed magnitude
+       return Math.sqrt(_velocityX*_velocityX + _velocityY*_velocityY + _velocityZ*_velocityZ);
+   }
+   ```
+
+3. **Calibration**:
+   - Use known hockey movement patterns to calibrate sensitivity
+   - Periodic zero-velocity updates during detected rest periods
+   - Adjustable sensitivity based on player position and style
+
+## Kalman Filter Implementation for Sensor Fusion
+
+The Hockey Tracker will implement a Kalman filter to optimally combine accelerometer and GPS data when available. The Kalman filter provides a mathematically sound way to fuse data from multiple sensors, accounting for the strengths and weaknesses of each sensor.
+
+### Kalman Filter Design
+
+1. **State Representation**:
+   - State vector will include position, velocity, and acceleration
+   - Position and velocity updated from both sensors
+   - Acceleration primarily from accelerometer
+
+2. **Sensor Weighting**:
+   - Higher weight to accelerometer in indoor environments
+   - Dynamically adjust weights based on GPS signal quality
+   - Lower GPS weight when signal quality is poor (e.g., indoor rinks)
+   - Implementation:
+   ```monkey
+   // Pseudocode for adaptive sensor weighting
+   function updateSensorWeights(gpsAccuracy) {
+       if (gpsAccuracy == null || gpsAccuracy > GPS_THRESHOLD_POOR) {
+           // Poor GPS - rely almost entirely on accelerometer
+           _kalmanConfig.accelWeight = 0.95;
+           _kalmanConfig.gpsWeight = 0.05;
+       } else if (gpsAccuracy > GPS_THRESHOLD_MODERATE) {
+           // Moderate GPS - blend data but favor accelerometer
+           _kalmanConfig.accelWeight = 0.75;
+           _kalmanConfig.gpsWeight = 0.25;
+       } else {
+           // Good GPS - more balanced approach
+           _kalmanConfig.accelWeight = 0.60;
+           _kalmanConfig.gpsWeight = 0.40;
+       }
+   }
+   ```
+
+3. **Process Model**:
+   - Account for hockey-specific movement patterns
+   - Include rapid acceleration/deceleration common in hockey
+   - Higher process noise during active play, lower during rest
+
+4. **Implementation Strategy**:
+   - A simplified Kalman filter to conserve battery and computational resources
+   - Optimize for hockey's specific movement patterns
+   - Adaptive filter parameters based on detected activity
+   - Implementation:
+   ```monkey
+   // Pseudocode for simplified Kalman filter update
+   function updateKalmanFilter(accelSpeed, gpsSpeed, deltaTime) {
+       // Prediction step
+       _predictedState = _previousState + _previousVelocity * deltaTime;
+       _predictedVelocity = _previousVelocity;
+       
+       // Update step - when GPS data is available
+       if (gpsSpeed != null) {
+           updateSensorWeights(gpsAccuracy);
+           
+           // Calculate Kalman gain based on sensor weights
+           var kalmanGain = calculateKalmanGain();
+           
+           // Update state with weighted combination
+           _currentState = _predictedState + kalmanGain * (gpsSpeed - _predictedState);
+           _currentVelocity = _predictedVelocity + kalmanGain * ((gpsSpeed - _predictedState)/deltaTime);
+       } else {
+           // No GPS, rely entirely on accelerometer prediction
+           _currentState = _predictedState;
+           _currentVelocity = accelSpeed;
+       }
+       
+       // Store states for next iteration
+       _previousState = _currentState;
+       _previousVelocity = _currentVelocity;
+       
+       return _currentVelocity; // Return the estimated speed
+   }
+   ```
+
+### Planned Testing Framework
+
+1. **Controlled Environment Testing**:
+   - Walking/running tests with known speeds
+   - Comparison with professional speed measurement equipment
+   - Validation against GPS in optimal conditions
+
+2. **Hockey-Specific Tests**:
+   - Simulated hockey movements (stops, starts, direction changes)
+   - On-ice testing with different playing styles
+   - Comparison of accelerometer-only vs. GPS-only vs. Kalman filter fusion
+
+3. **Performance Metrics**:
+   - Speed accuracy compared to reference sources
+   - System responsiveness to sudden movement changes
+   - Battery impact of different sensor configurations
+   - Drift measurement over extended sessions
 
 ## Best Practices for Sensor Implementation
 
@@ -69,32 +206,39 @@ The Garmin simulator can simulate sensor data for testing. To test sensor implem
    - Only register sensors when needed
    - Unregister listeners in onStop()
    - Consider sampling rate requirements
+   - Adaptive sensor usage based on activity intensity
 
 2. **Data Processing**:
    - Filter noisy sensor data
    - Use appropriate thresholds for hockey-specific movements
    - Consider rolling averages for more stable readings
+   - Implement zero-velocity updates during stationary periods
 
 3. **Error Handling**:
    - Always check if sensor data is available
    - Handle null values gracefully
    - Provide fallbacks when sensors are unavailable
+   - Detect and discard physically impossible readings
 
 ## How Hockey Tracker Processes Sensor Data
 
 1. **Data Collection Phase**:
    - Raw sensor data is collected via the onSensorData callback
    - Data is preliminarily filtered for null values
+   - Sampling rates optimized for hockey movements
 
 2. **Processing Phase** (to be implemented):
    - Heart rate data will be categorized into effort zones
-   - Accelerometer data will be analyzed for movement patterns
+   - Accelerometer data will be analyzed for movement patterns and speed
+   - GPS data will be used to calibrate and validate accelerometer-derived speed
+   - Kalman filter will fuse sensor data for optimal accuracy
    - Combined sensor data will generate game/training insights
 
 3. **Visualization Phase** (to be implemented):
-   - Real-time display of current heart rate
+   - Real-time display of current heart rate and speed
    - Post-session graphs and analysis
    - Period-by-period exertion tracking
+   - Shift-based performance metrics
 
 ## Simulator-Specific Notes
 
@@ -102,4 +246,5 @@ When testing in the simulator, note that:
 - Some sensor behaviors may differ from actual devices
 - The simulator allows setting specific values that might be unrealistic
 - Test extreme values to ensure the app handles them gracefully
-- Not all sensors available on devices can be simulated 
+- Not all sensors available on devices can be simulated
+- Additional mock-up tools may be needed to test sensor fusion algorithms 
