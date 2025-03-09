@@ -42,50 +42,79 @@ class HeartRateAndAccelView extends WatchUi.View {
 
     // Called when the view becomes visible
     function onShow() {
-        // Request both heart rate and accelerometer data
-        var options = {
-            :period => 1,
-            :heartRate => {
-                :enabled => true
-            },
-            :accelerometer => {
-                :enabled => true
-            }
-        };
-        
-        Sensor.registerSensorDataListener(method(:onSensorData), options);
+        // Request sensor data using the appropriate API
+        try {
+            var options = {
+                :period => 1,  // 1-second updates
+                :accelerometer => {
+                    :enabled => true
+                },
+                :heartRate => {
+                    :enabled => true
+                }
+            };
+            
+            Sensor.registerSensorDataListener(method(:onSensorData), options);
+        } catch (e) {
+            System.println("Error registering sensors: " + e.getErrorMessage());
+        }
     }
 
     // Called when the view is hidden
     function onHide() {
         // Disable the sensor when not visible to save battery
-        Sensor.unregisterSensorDataListener();
+        try {
+            Sensor.unregisterSensorDataListener();
+        } catch (e) {
+            System.println("Error unregistering sensors: " + e.getErrorMessage());
+        }
     }
 
     // Callback for sensor data
     function onSensorData(sensorData as Sensor.SensorData) as Void {
-        if (sensorData has :heartRate && sensorData.heartRate != null) {
-            hrValue = sensorData.heartRate.toString();
-        } else {
-            hrValue = "--";
-        }
-        
-        if (sensorData has :accelerometer && sensorData.accelerometer != null) {
-            // Safely format the accelerometer values
-            var x = sensorData.accelerometer.x;
-            var y = sensorData.accelerometer.y;
-            var z = sensorData.accelerometer.z;
+        try {
+            if (sensorData has :heartRate && sensorData.heartRate != null) {
+                hrValue = sensorData.heartRate.toString();
+            } else {
+                hrValue = "--";
+            }
             
-            accelX = (x != null) ? x.format("%.2f") : "--";
-            accelY = (y != null) ? y.format("%.2f") : "--";
-            accelZ = (z != null) ? z.format("%.2f") : "--";
-        } else {
-            accelX = "--";
-            accelY = "--";
-            accelZ = "--";
+            if (sensorData has :accelerometer && sensorData.accelerometer != null) {
+                var accelData = sensorData.accelerometer;
+                if (accelData has :x && accelData has :y && accelData has :z) {
+                    var x = accelData.x;
+                    var y = accelData.y;
+                    var z = accelData.z;
+                    
+                    // Safely format or default to "--"
+                    if (x instanceof Float) {
+                        accelX = x.format("%.2f");
+                    } else {
+                        accelX = "--";
+                    }
+                    
+                    if (y instanceof Float) {
+                        accelY = y.format("%.2f");
+                    } else {
+                        accelY = "--";
+                    }
+                    
+                    if (z instanceof Float) {
+                        accelZ = z.format("%.2f");
+                    } else {
+                        accelZ = "--";
+                    }
+                }
+            } else {
+                accelX = "--";
+                accelY = "--";
+                accelZ = "--";
+            }
+            
+            WatchUi.requestUpdate();
+        } catch(e) {
+            System.println("Error in sensor data processing: " + e.getErrorMessage());
         }
-        
-        WatchUi.requestUpdate();
     }
 
     // Update the view
